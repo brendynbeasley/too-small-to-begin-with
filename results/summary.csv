@@ -1,0 +1,7 @@
+series,cum_tfp_adjusted,cum_tfp_fernald,cum_ae_firm,cum_ae_industry,cum_technology,share_ae_of_tfp,share_ae_industry_of_tfp,label,firm_years,firms,within_realloc,cum_ae_firm_lo,cum_ae_firm_hi,cum_ae_industry_lo,cum_ae_industry_hi,share_ae_of_tfp_lo,share_ae_of_tfp_hi,within_realloc_lo,within_realloc_hi
+mu_uc,0.07598,0.08369,0.05299,0.06472,0.02298,0.6975,0.8518,User cost (paper's benchmark),35002,5602,-0.04216,0.03742,0.06861,0.05537,0.08332,0.48986,0.89871,-0.05841,-0.0287
+mu_ap,0.07888,0.08369,0.04684,0.06401,0.03203,0.59387,0.81145,Accounting profits,35002,5602,-0.04013,0.03046,0.06547,0.05214,0.08692,0.38893,0.8276,-0.05669,-0.02641
+mu_cogs,0.06248,0.08369,0.00225,0.01368,0.06024,0.03598,0.21898,COGS cost share (De Loecker-Eeckhout style),25591,4249,0.02348,,,,,,,,
+mu_opex,0.07671,0.08369,0.00136,0.02406,0.07535,0.01771,0.31369,"All operating costs, cost share (Traina style)",25591,4249,-0.01607,,,,,,,,
+mu_uc_cogs_sample,0.076,0.08369,0.00584,0.0281,0.07016,0.07686,0.36976,"User cost (paper's benchmark), COGS reporters only",25591,4249,-0.02596,,,,,,,,
+mu_ap_cogs_sample,0.07845,0.08369,-0.00221,0.02375,0.08066,-0.02817,0.30279,"Accounting profits, COGS reporters only",25591,4249,-0.02473,,,,,,,,

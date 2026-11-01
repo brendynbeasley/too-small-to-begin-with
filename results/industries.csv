@@ -1,0 +1,859 @@
+year,bea,industry,firms,markup,covered,sales_share,cost_domar,markup_p10,markup_p90,top_firm
+2011,111CA,Farms,18,1.03405,True,0.02825,0.03211,0.62168,1.38157,DOLE FOOD CO INC
+2011,113FF,"Forestry, fishing, and related activities",2,1.09667,False,0.00365,0.00523,1.06843,1.34678,UMAMI SUSTAINABLE SEAFOOD INC.
+2011,211,Oil and gas extraction,86,1.09756,True,0.02771,0.05964,0.54701,1.38157,MURPHY OIL CORP
+2011,212,"Mining, except oil and gas",34,1.05702,True,0.00972,0.01095,0.77597,1.33803,PEABODY ENERGY CORP
+2011,213,Support activities for mining,36,1.061,True,0.00728,0.00831,0.61108,1.3415,SCHLUMBERGER LIMITED/NV
+2011,22,Utilities,80,1.05886,True,0.03602,0.04046,0.89072,1.1709,EXELON CORP
+2011,23,Construction,31,1.03785,True,0.07581,0.0756,0.92736,1.08024,FLUOR CORP
+2011,321,Wood products,13,0.98196,True,0.00542,0.00593,0.80208,1.07868,"FORTUNE BRANDS INNOVATIONS, INC."
+2011,327,Nonmetallic mineral products,15,0.988,True,0.00699,0.00779,0.93964,1.25102,OWENS-ILLINOIS GROUP INC
+2011,331,Primary metals,47,1.04207,True,0.02091,0.03008,0.9994,1.1427,HOWMET AEROSPACE INC.
+2011,332,Fabricated metal products,50,1.06731,True,0.02428,0.02827,0.94899,1.19566,PARKER HANNIFIN CORP
+2011,333,Machinery,107,1.12234,True,0.02742,0.02904,0.92831,1.22282,DEERE & CO
+2011,334,Computer and electronic products,379,1.15024,True,0.02687,0.02882,0.81509,1.254,HP INC
+2011,335,"Electrical equipment, appliances, and components",50,1.10863,True,0.00875,0.00954,0.54947,1.17021,GENERAL ELECTRIC CO
+2011,3361MV,"Motor vehicles, bodies and trailers, and parts",48,1.06571,True,0.03705,0.03834,0.99256,1.15208,GENERAL MOTORS CO
+2011,3364OT,Other transportation equipment,38,1.10084,True,0.01922,0.01909,1.01393,1.18523,BOEING CO
+2011,337,Furniture and related products,18,1.04128,True,0.00425,0.00424,0.92275,1.14542,JOHNSON CONTROLS INC
+2011,339,Miscellaneous manufacturing,167,1.17913,True,0.01204,0.01224,0.46627,1.24735,3M CO
+2011,311FT,Food and beverage and tobacco products,83,1.12834,True,0.06359,0.06594,0.95067,1.25058,PHILIP MORRIS INTERNATIONAL INC.
+2011,313TT,Textile mills and textile product mills,8,1.0344,True,0.00393,0.0042,0.89127,1.08148,MOHAWK INDUSTRIES INC
+2011,315AL,Apparel and leather and allied products,39,1.11787,True,0.00185,0.00197,0.97437,1.24713,V F CORP
+2011,322,Paper products,25,1.05092,True,0.01305,0.01497,0.97147,1.11579,INTERNATIONAL PAPER CO /NEW/
+2011,323,Printing and related support activities,13,1.02788,True,0.00626,0.0068,0.99615,1.1576,RR DONNELLEY & SONS CO
+2011,324,Petroleum and coal products,14,1.16262,True,0.06069,0.06469,0.96299,1.16009,CHEVRON CORP
+2011,325,Chemical products,307,1.1576,True,0.05816,0.0685,0.46627,1.36326,PFIZER INC
+2011,326,Plastics and rubber products,27,1.07595,True,0.01493,0.01684,0.99597,1.22773,"NIKE, INC."
+2011,42,Wholesale trade,121,1.02724,True,0.11372,0.12,0.97818,1.11364,MCKESSON CORP
+2011,441,Motor vehicle and parts dealers,19,1.03596,True,0.01477,0.01444,0.994,1.13637,"AUTONATION, INC."
+2011,445,Food and beverage stores,18,1.02065,True,0.01514,0.01462,0.98829,1.10813,KROGER CO
+2011,452,General merchandise stores,21,1.03917,True,0.01578,0.01527,1.00758,1.09093,WALMART INC.
+2011,4A0,Other retail,124,1.0562,True,0.05356,0.05241,0.96509,1.17862,WALGREEN CO
+2011,481,Air transportation,20,1.02235,True,0.01443,0.01491,0.96411,1.06197,FEDEX CORP
+2011,482,Rail transportation,5,1.20703,True,0.00563,0.00634,0.98488,1.38157,UNION PACIFIC CORP
+2011,483,Water transportation,13,0.97831,True,0.00363,0.00369,0.88358,1.1155,ROYAL CARIBBEAN CRUISES LTD
+2011,484,Truck transportation,15,1.08539,True,0.02068,0.0222,0.94853,1.0933,UNITED PARCEL SERVICE INC
+2011,485,Transit and ground passenger transportation,0,1.09667,False,0.00366,0.00386,,,
+2011,486,Pipeline transportation,1,1.09667,False,0.0026,0.00358,1.02541,1.02541,"ENERGY TRANSFER OPERATING, L.P."
+2011,487OS,Other transportation and support activities,12,1.10567,True,0.0133,0.01504,0.98726,1.15268,"C. H. ROBINSON WORLDWIDE, INC."
+2011,493,Warehousing and storage,1,1.09667,False,0.00725,0.00785,1.19429,1.19429,BLACKWATER MIDSTREAM CORP.
+2011,511,"Publishing industries, except internet (includes software)",111,1.27344,True,0.02215,0.02197,0.83593,1.33782,MICROSOFT CORP
+2011,512,Motion picture and sound recording industries,13,1.05153,True,0.00953,0.00996,0.88839,1.11168,AMC ENTERTAINMENT INC
+2011,513,Broadcasting and telecommunications,79,1.13266,True,0.05272,0.05449,0.88278,1.36383,COMCAST CORP
+2011,514,"Data processing, internet publishing, and other information services",42,1.26002,True,0.01401,0.01497,0.75543,1.38157,GOOGLE INC.
+2011,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.09667,False,0.05149,0.05505,,,
+2011,523,"Securities, commodity contracts, and investments",0,1.09667,False,0.03359,0.03481,,,
+2011,524,Insurance carriers and related activities,0,1.09667,False,0.05406,0.06016,,,
+2011,525,"Funds, trusts, and other financial vehicles",0,1.09667,False,0.00845,0.00829,,,
+2011,HS,Housing,0,1.09667,False,0.12525,0.1208,,,
+2011,ORE,Other real estate,0,1.09667,False,0.06116,0.06839,,,
+2011,532RL,Rental and leasing services and lessors of intangible assets,7,1.10909,True,0.02115,0.02395,1.01404,1.15672,HERTZ CORP
+2011,5411,Legal services,0,1.09667,False,0.02212,0.02417,,,
+2011,5415,Computer systems design and related services,62,1.00531,True,0.02458,0.02596,0.82924,1.25524,COMPUTER SCIENCES CORP
+2011,5412OP,"Miscellaneous professional, scientific, and technical services",58,1.09944,True,0.08039,0.09052,0.50986,1.23241,OMNICOM GROUP INC.
+2011,55,Management of companies and enterprises,0,1.09667,False,0.03317,0.03941,,,
+2011,561,Administrative and support services,109,1.15026,True,0.04666,0.05296,0.93055,1.3551,ACCENTURE PLC
+2011,562,Waste management and remediation services,10,1.12932,True,0.00618,0.00695,0.91257,1.21176,WASTE MANAGEMENT INC
+2011,61,Educational services,17,1.13318,True,0.02277,0.02211,1.00901,1.25337,APOLLO EDUCATION GROUP INC
+2011,621,Ambulatory health care services,23,1.13509,True,0.06194,0.05997,0.7891,1.17126,QUEST DIAGNOSTICS INC
+2011,622,Hospitals,4,1.0959,True,0.04961,0.04787,0.91437,1.10024,UNIVERSAL HEALTH SERVICES INC
+2011,623,Nursing and residential care facilities,8,0.96183,True,0.015,0.01446,0.71688,1.01893,BROOKDALE SENIOR LIVING INC.
+2011,624,Social assistance,0,1.09667,False,0.01223,0.01179,,,
+2011,711AS,"Performing arts, spectator sports, museums, and related activities",3,1.09667,False,0.01015,0.01072,0.97153,1.05671,INTERNATIONAL SPEEDWAY CORP
+2011,713,"Amusements, gambling, and recreation industries",20,1.00256,True,0.00858,0.00838,0.82455,1.07587,"LIVE NATION ENTERTAINMENT, INC."
+2011,721,Accommodation,24,1.10147,True,0.01476,0.0149,0.9279,1.18371,LAS VEGAS SANDS CORP
+2011,722,Food services and drinking places,47,1.13753,True,0.04302,0.04331,0.98485,1.19191,MCDONALDS CORP
+2011,81,"Other services, except government",13,1.13726,True,0.04076,0.04187,1.02299,1.21816,H&R BLOCK INC
+2012,111CA,Farms,20,1.00862,True,0.02868,0.03234,0.91562,1.37062,DOLE FOOD CO INC
+2012,113FF,"Forestry, fishing, and related activities",3,1.08472,False,0.00333,0.00455,1.37062,1.37062,"SINO AGRO FOOD, INC."
+2012,211,Oil and gas extraction,84,1.05813,True,0.02573,0.05126,0.4182,1.37062,MURPHY OIL CORP
+2012,212,"Mining, except oil and gas",32,0.97101,True,0.00884,0.0098,0.4182,1.2705,FREEPORT-MCMORAN INC
+2012,213,Support activities for mining,38,1.12112,True,0.00895,0.00969,0.65271,1.3273,SCHLUMBERGER LIMITED/NV
+2012,22,Utilities,82,1.0556,True,0.03275,0.03635,0.70684,1.21601,EXELON CORP
+2012,23,Construction,31,1.03458,True,0.07631,0.07583,0.76548,1.11519,FLUOR CORP
+2012,321,Wood products,12,1.03,True,0.0057,0.0062,0.97995,1.07823,"FORTUNE BRANDS INNOVATIONS, INC."
+2012,327,Nonmetallic mineral products,14,1.04154,True,0.00705,0.00773,0.92394,1.0904,OWENS-ILLINOIS GROUP INC
+2012,331,Primary metals,48,1.03974,True,0.0191,0.02736,0.94295,1.10612,HOWMET AEROSPACE INC.
+2012,332,Fabricated metal products,48,1.08441,True,0.02434,0.02757,1.00718,1.24863,PARKER HANNIFIN CORP
+2012,333,Machinery,105,1.11325,True,0.02871,0.0298,0.88552,1.1941,DEERE & CO
+2012,334,Computer and electronic products,377,1.1336,True,0.02514,0.02655,0.73374,1.21574,APPLE INC
+2012,335,"Electrical equipment, appliances, and components",43,1.09676,True,0.00871,0.00936,0.61856,1.2174,GENERAL ELECTRIC CO
+2012,3361MV,"Motor vehicles, bodies and trailers, and parts",49,0.97371,True,0.03666,0.03664,0.939,1.10865,GENERAL MOTORS CO
+2012,3364OT,Other transportation equipment,38,1.09558,True,0.02064,0.02053,1.00751,1.21071,BOEING CO
+2012,337,Furniture and related products,17,1.03944,True,0.00466,0.00462,0.96603,1.11834,JOHNSON CONTROLS INC
+2012,339,Miscellaneous manufacturing,158,1.17836,True,0.01111,0.01135,0.42653,1.23138,3M CO
+2012,311FT,Food and beverage and tobacco products,85,1.1181,True,0.06357,0.06553,0.97874,1.22998,PEPSICO INC
+2012,313TT,Textile mills and textile product mills,8,1.02785,True,0.00368,0.00392,0.8983,1.08907,MOHAWK INDUSTRIES INC
+2012,315AL,Apparel and leather and allied products,35,1.13446,True,0.00137,0.00143,1.01809,1.3546,V F CORP
+2012,322,Paper products,25,1.04758,True,0.01272,0.01425,0.96855,1.11444,INTERNATIONAL PAPER CO /NEW/
+2012,323,Printing and related support activities,12,1.00855,True,0.0059,0.00635,0.96172,1.09972,RR DONNELLEY & SONS CO
+2012,324,Petroleum and coal products,13,1.12531,True,0.05912,0.06154,1.01739,1.17993,CHEVRON CORP
+2012,325,Chemical products,299,1.14787,True,0.05634,0.06516,0.4182,1.33097,PFIZER INC
+2012,326,Plastics and rubber products,27,1.08738,True,0.01536,0.017,0.96266,1.16771,"NIKE, INC."
+2012,42,Wholesale trade,116,1.02884,True,0.11744,0.12244,0.97255,1.10785,MCKESSON CORP
+2012,441,Motor vehicle and parts dealers,19,1.03764,True,0.01574,0.01537,0.99801,1.12675,"AUTONATION, INC."
+2012,445,Food and beverage stores,20,1.03013,True,0.01474,0.01425,0.98522,1.08617,KROGER CO
+2012,452,General merchandise stores,23,1.04196,True,0.01496,0.01449,1.00497,1.08973,WALMART INC.
+2012,4A0,Other retail,117,1.05137,True,0.05416,0.05291,0.9406,1.14867,EXPRESS SCRIPTS HOLDING CO.
+2012,481,Air transportation,21,1.01505,True,0.01387,0.0142,0.99518,1.15052,FEDEX CORP
+2012,482,Rail transportation,6,1.23603,True,0.00562,0.00621,1.01729,1.37062,UNION PACIFIC CORP
+2012,483,Water transportation,15,0.97105,True,0.00355,0.00357,0.71529,1.04837,ROYAL CARIBBEAN CRUISES LTD
+2012,484,Truck transportation,15,1.02044,True,0.02113,0.02239,0.9657,1.09183,UNITED PARCEL SERVICE INC
+2012,485,Transit and ground passenger transportation,0,1.08472,False,0.00362,0.0038,,,
+2012,486,Pipeline transportation,0,1.08472,False,0.00259,0.00331,,,
+2012,487OS,Other transportation and support activities,11,1.10308,True,0.01329,0.01457,0.92,1.1505,"C. H. ROBINSON WORLDWIDE, INC."
+2012,493,Warehousing and storage,0,1.08472,False,0.00773,0.00828,,,
+2012,511,"Publishing industries, except internet (includes software)",109,1.27029,True,0.02102,0.02077,0.78946,1.34701,MICROSOFT CORP
+2012,512,Motion picture and sound recording industries,13,1.09563,True,0.00935,0.00978,0.92245,1.13894,STARZ ENTERTAINMENT CORP /CN/
+2012,513,Broadcasting and telecommunications,80,1.12437,True,0.05202,0.05347,0.91601,1.36047,COMCAST CORP
+2012,514,"Data processing, internet publishing, and other information services",51,1.22825,True,0.01572,0.01656,0.76732,1.29433,GOOGLE INC.
+2012,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.08472,False,0.05404,0.05738,,,
+2012,523,"Securities, commodity contracts, and investments",0,1.08472,False,0.03395,0.03498,,,
+2012,524,Insurance carriers and related activities,0,1.08472,False,0.05667,0.06295,,,
+2012,525,"Funds, trusts, and other financial vehicles",0,1.08472,False,0.00832,0.0082,,,
+2012,HS,Housing,0,1.08472,False,0.12252,0.11828,,,
+2012,ORE,Other real estate,0,1.08472,False,0.06309,0.06955,,,
+2012,532RL,Rental and leasing services and lessors of intangible assets,7,1.08809,True,0.02119,0.02359,0.76227,1.14093,HERTZ CORP
+2012,5411,Legal services,0,1.08472,False,0.02178,0.02366,,,
+2012,5415,Computer systems design and related services,64,1.09123,True,0.02514,0.02636,0.85039,1.27353,COMPUTER SCIENCES CORP
+2012,5412OP,"Miscellaneous professional, scientific, and technical services",57,1.07659,True,0.07975,0.08908,0.75878,1.21259,OMNICOM GROUP INC.
+2012,55,Management of companies and enterprises,0,1.08472,False,0.03398,0.03952,,,
+2012,561,Administrative and support services,107,1.17329,True,0.04694,0.05288,0.9153,1.37062,ACCENTURE PLC
+2012,562,Waste management and remediation services,11,1.11796,True,0.00593,0.00655,0.95295,1.30848,WASTE MANAGEMENT INC
+2012,61,Educational services,16,0.96335,True,0.02197,0.02131,0.76039,1.16763,APOLLO EDUCATION GROUP INC
+2012,621,Ambulatory health care services,19,1.16125,True,0.06168,0.05981,0.65614,1.19152,QUEST DIAGNOSTICS INC
+2012,622,Hospitals,6,1.10195,True,0.05034,0.0486,1.02562,1.13169,UNIVERSAL HEALTH SERVICES INC
+2012,623,Nursing and residential care facilities,7,0.98869,True,0.01483,0.01432,0.72632,1.06691,BROOKDALE SENIOR LIVING INC.
+2012,624,Social assistance,0,1.08472,False,0.01204,0.01162,,,
+2012,711AS,"Performing arts, spectator sports, museums, and related activities",3,1.08472,False,0.01027,0.01078,1.02542,1.09029,INTERNATIONAL SPEEDWAY CORP
+2012,713,"Amusements, gambling, and recreation industries",19,1.02381,True,0.0085,0.00828,0.84231,1.11739,"LIVE NATION ENTERTAINMENT, INC."
+2012,721,Accommodation,22,1.03558,True,0.01525,0.01541,0.88677,1.15091,LAS VEGAS SANDS CORP
+2012,722,Food services and drinking places,47,1.1466,True,0.04357,0.04383,0.97992,1.2464,MCDONALDS CORP
+2012,81,"Other services, except government",13,1.15349,True,0.04087,0.04172,0.90784,1.16946,H&R BLOCK INC
+2013,111CA,Farms,19,1.03817,True,0.02984,0.03412,0.38416,1.36612,FRESH DEL MONTE PRODUCE INC
+2013,113FF,"Forestry, fishing, and related activities",2,1.0955,False,0.0034,0.0048,1.36612,1.36612,"SINO AGRO FOOD, INC."
+2013,211,Oil and gas extraction,82,1.05982,True,0.02814,0.04844,0.44913,1.35962,OCCIDENTAL PETROLEUM CORP /DE/
+2013,212,"Mining, except oil and gas",28,1.01664,True,0.0078,0.00885,0.31047,1.16688,FREEPORT-MCMORAN INC
+2013,213,Support activities for mining,37,1.12542,True,0.00874,0.00934,0.77602,1.35086,SCHLUMBERGER LIMITED/NV
+2013,22,Utilities,81,1.07139,True,0.03303,0.03727,0.82219,1.18403,EXELON CORP
+2013,23,Construction,30,1.04714,True,0.07902,0.07904,0.87879,1.09286,FLUOR CORP
+2013,321,Wood products,14,1.05456,True,0.00613,0.0069,0.99745,1.08503,"FORTUNE BRANDS INNOVATIONS, INC."
+2013,327,Nonmetallic mineral products,15,1.06669,True,0.00721,0.00813,0.89476,1.12233,OWENS-ILLINOIS GROUP INC
+2013,331,Primary metals,45,1.00865,True,0.01796,0.02661,0.91576,1.11544,HOWMET AEROSPACE INC.
+2013,332,Fabricated metal products,51,1.08348,True,0.0239,0.02766,0.98444,1.2435,PARKER HANNIFIN CORP
+2013,333,Machinery,103,1.10656,True,0.02711,0.02856,0.86546,1.18676,DEERE & CO
+2013,334,Computer and electronic products,362,1.16447,True,0.02404,0.02607,0.80128,1.21363,APPLE INC
+2013,335,"Electrical equipment, appliances, and components",40,1.09698,True,0.00843,0.00925,0.70578,1.19912,GENERAL ELECTRIC CO
+2013,3361MV,"Motor vehicles, bodies and trailers, and parts",50,1.05857,True,0.03781,0.03952,0.98086,1.1365,GENERAL MOTORS CO
+2013,3364OT,Other transportation equipment,36,1.11363,True,0.0207,0.02084,1.01039,1.21331,BOEING CO
+2013,337,Furniture and related products,15,1.05418,True,0.0046,0.00462,0.99348,1.09816,JOHNSON CONTROLS INC
+2013,339,Miscellaneous manufacturing,152,1.16747,True,0.01144,0.01179,0.3122,1.2317,3M CO
+2013,311FT,Food and beverage and tobacco products,74,1.13396,True,0.06286,0.06552,0.97392,1.25136,PEPSICO INC
+2013,313TT,Textile mills and textile product mills,9,1.04281,True,0.00366,0.00402,0.96051,1.08175,MOHAWK INDUSTRIES INC
+2013,315AL,Apparel and leather and allied products,33,1.11633,True,0.00132,0.00146,0.97606,1.3351,PVH CORP. /DE/
+2013,322,Paper products,24,1.05636,True,0.0126,0.01455,0.95994,1.14684,INTERNATIONAL PAPER CO /NEW/
+2013,323,Printing and related support activities,11,1.05643,True,0.00568,0.00619,1.00955,1.08955,RR DONNELLEY & SONS CO
+2013,324,Petroleum and coal products,12,1.10282,True,0.05685,0.06068,1.02114,1.14197,CHEVRON CORP
+2013,325,Chemical products,316,1.15695,True,0.0566,0.06667,0.31047,1.36612,PFIZER INC
+2013,326,Plastics and rubber products,25,1.09636,True,0.0153,0.01746,0.99169,1.17362,"NIKE, INC."
+2013,42,Wholesale trade,106,1.02723,True,0.11957,0.12701,0.94697,1.10344,MCKESSON CORP
+2013,441,Motor vehicle and parts dealers,20,1.03555,True,0.01678,0.0165,0.99795,1.10822,"AUTONATION, INC."
+2013,445,Food and beverage stores,19,1.0301,True,0.01446,0.01405,0.99829,1.10132,KROGER CO
+2013,452,General merchandise stores,20,1.03902,True,0.0146,0.01422,0.96125,1.09526,WALMART INC.
+2013,4A0,Other retail,116,1.05979,True,0.05587,0.05501,0.96778,1.14831,CVS HEALTH CORP
+2013,481,Air transportation,19,1.04028,True,0.01389,0.01435,0.98468,1.1506,FEDEX CORP
+2013,482,Rail transportation,6,1.26952,True,0.00563,0.00638,1.04328,1.36612,"BURLINGTON NORTHERN SANTA FE, LLC"
+2013,483,Water transportation,12,1.02777,True,0.00345,0.0035,0.79082,1.16142,ROYAL CARIBBEAN CRUISES LTD
+2013,484,Truck transportation,13,1.1048,True,0.02105,0.02267,1.00057,1.11848,UNITED PARCEL SERVICE INC
+2013,485,Transit and ground passenger transportation,0,1.0955,False,0.00384,0.0041,,,
+2013,486,Pipeline transportation,1,1.0955,False,0.00265,0.00335,1.25006,1.25006,MPLX LP
+2013,487OS,Other transportation and support activities,12,1.10353,True,0.01337,0.0152,0.98629,1.12949,"C. H. ROBINSON WORLDWIDE, INC."
+2013,493,Warehousing and storage,0,1.0955,False,0.00753,0.00824,,,
+2013,511,"Publishing industries, except internet (includes software)",115,1.23942,True,0.02118,0.02113,0.78386,1.32182,MICROSOFT CORP
+2013,512,Motion picture and sound recording industries,16,1.08434,True,0.00924,0.00992,0.86393,1.12813,AMC ENTERTAINMENT INC
+2013,513,Broadcasting and telecommunications,79,1.17767,True,0.05135,0.05349,0.93654,1.36612,COMCAST CORP
+2013,514,"Data processing, internet publishing, and other information services",58,1.19643,True,0.01642,0.01764,0.66325,1.22632,GOOGLE INC.
+2013,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.0955,False,0.05551,0.05999,,,
+2013,523,"Securities, commodity contracts, and investments",0,1.0955,False,0.03485,0.03637,,,
+2013,524,Insurance carriers and related activities,0,1.0955,False,0.0571,0.06451,,,
+2013,525,"Funds, trusts, and other financial vehicles",0,1.0955,False,0.0095,0.00946,,,
+2013,HS,Housing,0,1.0955,False,0.12163,0.118,,,
+2013,ORE,Other real estate,0,1.0955,False,0.06648,0.07478,,,
+2013,532RL,Rental and leasing services and lessors of intangible assets,7,1.10818,True,0.02177,0.02472,0.72189,1.16259,HERTZ CORP
+2013,5411,Legal services,0,1.0955,False,0.02101,0.02316,,,
+2013,5415,Computer systems design and related services,60,1.09384,True,0.02491,0.02642,0.7572,1.25378,COMPUTER SCIENCES CORP
+2013,5412OP,"Miscellaneous professional, scientific, and technical services",57,1.0836,True,0.0782,0.08895,0.73558,1.2678,OMNICOM GROUP INC.
+2013,55,Management of companies and enterprises,0,1.0955,False,0.03361,0.03981,,,
+2013,561,Administrative and support services,104,1.17704,True,0.0471,0.05428,0.94049,1.36612,ACCENTURE SCA
+2013,562,Waste management and remediation services,11,1.08388,True,0.00593,0.00666,0.84021,1.31845,WASTE MANAGEMENT INC
+2013,61,Educational services,18,1.04192,True,0.02178,0.02126,0.81802,1.13473,APOLLO EDUCATION GROUP INC
+2013,621,Ambulatory health care services,25,1.17607,True,0.0595,0.05798,0.41674,1.18824,QUEST DIAGNOSTICS INC
+2013,622,Hospitals,5,1.10001,True,0.04981,0.04834,1.02347,1.2861,UNIVERSAL HEALTH SERVICES INC
+2013,623,Nursing and residential care facilities,7,0.99526,True,0.01458,0.01414,0.68959,1.03173,BROOKDALE SENIOR LIVING INC.
+2013,624,Social assistance,1,1.0955,False,0.01192,0.01156,1.07913,1.07913,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2013,711AS,"Performing arts, spectator sports, museums, and related activities",3,1.0955,False,0.0103,0.01105,0.89745,1.02137,INTERNATIONAL SPEEDWAY CORP
+2013,713,"Amusements, gambling, and recreation industries",20,1.04068,True,0.00853,0.00835,0.9573,1.25906,"LIVE NATION ENTERTAINMENT, INC."
+2013,721,Accommodation,29,1.06464,True,0.01541,0.01574,0.87067,1.15548,LAS VEGAS SANDS CORP
+2013,722,Food services and drinking places,54,1.12471,True,0.04362,0.04433,0.95431,1.30543,MCDONALDS CORP
+2013,81,"Other services, except government",10,1.163,True,0.04004,0.04134,0.89271,1.17352,H&R BLOCK INC
+2014,111CA,Farms,18,1.0485,True,0.02884,0.03273,0.35657,1.2156,FRESH DEL MONTE PRODUCE INC
+2014,113FF,"Forestry, fishing, and related activities",3,1.34163,True,0.00368,0.00537,0.44283,1.35025,"SINO AGRO FOOD, INC."
+2014,211,Oil and gas extraction,79,1.04113,True,0.02907,0.04453,0.46116,1.35404,CHESAPEAKE ENERGY CORP
+2014,212,"Mining, except oil and gas",26,0.91548,True,0.00757,0.00848,0.21976,1.21399,FREEPORT-MCMORAN INC
+2014,213,Support activities for mining,33,1.06721,True,0.01081,0.01124,0.74433,1.27728,SCHLUMBERGER LIMITED/NV
+2014,22,Utilities,86,1.04934,True,0.03396,0.03772,0.79534,1.20838,EXELON CORP
+2014,23,Construction,35,1.05294,True,0.08248,0.0823,0.93659,1.09452,FLUOR CORP
+2014,321,Wood products,14,1.03698,True,0.0063,0.00703,0.97943,1.13703,"FORTUNE BRANDS INNOVATIONS, INC."
+2014,327,Nonmetallic mineral products,15,1.04741,True,0.0074,0.00825,0.9347,1.10943,OWENS-ILLINOIS GROUP INC
+2014,331,Primary metals,43,1.03615,True,0.01733,0.02572,0.93718,1.08527,HOWMET AEROSPACE INC.
+2014,332,Fabricated metal products,51,1.09094,True,0.02352,0.02694,0.96973,1.25191,PARKER HANNIFIN CORP
+2014,333,Machinery,106,1.10425,True,0.02681,0.02802,0.81742,1.18244,DEERE & CO
+2014,334,Computer and electronic products,348,1.16182,True,0.02269,0.02462,0.7072,1.22276,APPLE INC
+2014,335,"Electrical equipment, appliances, and components",40,1.09518,True,0.00831,0.00914,0.682,1.17079,GENERAL ELECTRIC CO
+2014,3361MV,"Motor vehicles, bodies and trailers, and parts",51,1.02983,True,0.03906,0.04027,0.98078,1.12905,GENERAL MOTORS CO
+2014,3364OT,Other transportation equipment,37,1.12347,True,0.02093,0.02116,0.9999,1.19887,BOEING CO
+2014,337,Furniture and related products,15,1.0482,True,0.00454,0.00458,1.02646,1.0865,JOHNSON CONTROLS INC
+2014,339,Miscellaneous manufacturing,157,1.14343,True,0.01065,0.01088,0.22102,1.21537,3M CO
+2014,311FT,Food and beverage and tobacco products,69,1.11277,True,0.06216,0.06451,0.9518,1.23845,PEPSICO INC
+2014,313TT,Textile mills and textile product mills,8,1.07255,True,0.0036,0.00396,1.01674,1.09469,MOHAWK INDUSTRIES INC
+2014,315AL,Apparel and leather and allied products,32,1.11803,True,0.00124,0.00138,1.02043,1.34747,V F CORP
+2014,322,Paper products,22,1.05029,True,0.01213,0.01383,0.94934,1.10214,INTERNATIONAL PAPER CO /NEW/
+2014,323,Printing and related support activities,10,1.04999,True,0.00539,0.00584,0.98363,1.12982,RR DONNELLEY & SONS CO
+2014,324,Petroleum and coal products,14,1.06716,True,0.05005,0.05263,0.95899,1.1024,CHEVRON CORP
+2014,325,Chemical products,338,1.15592,True,0.05403,0.06224,0.21976,1.31834,PFIZER INC
+2014,326,Plastics and rubber products,23,1.09997,True,0.0151,0.01702,0.99689,1.14736,"NIKE, INC."
+2014,42,Wholesale trade,107,1.02553,True,0.12116,0.12796,0.93916,1.09377,MCKESSON CORP
+2014,441,Motor vehicle and parts dealers,19,1.03691,True,0.01775,0.01745,0.9946,1.1102,"AUTONATION, INC."
+2014,445,Food and beverage stores,15,1.02877,True,0.01441,0.01403,1.00639,1.08837,KROGER CO
+2014,452,General merchandise stores,18,1.04075,True,0.01442,0.01407,0.96557,1.09789,WALMART INC.
+2014,4A0,Other retail,113,1.05694,True,0.05615,0.05534,0.97826,1.14001,CVS HEALTH CORP
+2014,481,Air transportation,20,1.03266,True,0.01414,0.01459,0.96619,1.14976,FEDEX CORP
+2014,482,Rail transportation,6,1.25157,True,0.0058,0.00648,1.03404,1.35404,UNION PACIFIC CORP
+2014,483,Water transportation,12,0.99517,True,0.00356,0.0036,0.85802,1.13181,ROYAL CARIBBEAN CRUISES LTD
+2014,484,Truck transportation,13,1.06709,True,0.02194,0.02343,1.01366,1.11081,UNITED PARCEL SERVICE INC
+2014,485,Transit and ground passenger transportation,0,1.08771,False,0.00411,0.00436,,,
+2014,486,Pipeline transportation,2,1.08771,False,0.00275,0.00329,1.01758,1.23856,"ENERGY TRANSFER OPERATING, L.P."
+2014,487OS,Other transportation and support activities,10,1.10079,True,0.01375,0.0154,0.9806,1.14631,"C. H. ROBINSON WORLDWIDE, INC."
+2014,493,Warehousing and storage,0,1.08771,False,0.00725,0.0079,,,
+2014,511,"Publishing industries, except internet (includes software)",118,1.22491,True,0.02127,0.0213,0.69838,1.28536,MICROSOFT CORP
+2014,512,Motion picture and sound recording industries,15,1.03964,True,0.00895,0.00951,0.76358,1.11004,AMC ENTERTAINMENT INC
+2014,513,Broadcasting and telecommunications,77,1.17365,True,0.05183,0.05377,0.85059,1.34267,COMCAST CORP
+2014,514,"Data processing, internet publishing, and other information services",66,1.22648,True,0.01707,0.01831,0.70184,1.29438,GOOGLE INC.
+2014,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.08771,False,0.05706,0.0613,,,
+2014,523,"Securities, commodity contracts, and investments",0,1.08771,False,0.03534,0.03673,,,
+2014,524,Insurance carriers and related activities,0,1.08771,False,0.05939,0.06556,,,
+2014,525,"Funds, trusts, and other financial vehicles",0,1.08771,False,0.00953,0.00947,,,
+2014,HS,Housing,0,1.08771,False,0.1193,0.11596,,,
+2014,ORE,Other real estate,0,1.08771,False,0.06828,0.07584,,,
+2014,532RL,Rental and leasing services and lessors of intangible assets,6,1.04438,True,0.02228,0.02486,1.00821,1.18157,HERTZ CORP
+2014,5411,Legal services,0,1.08771,False,0.02062,0.02241,,,
+2014,5415,Computer systems design and related services,62,1.05909,True,0.02553,0.02695,0.67346,1.31973,COMPUTER SCIENCES CORP
+2014,5412OP,"Miscellaneous professional, scientific, and technical services",56,1.08569,True,0.07896,0.08868,0.64823,1.15867,OMNICOM GROUP INC.
+2014,55,Management of companies and enterprises,0,1.08771,False,0.03383,0.03916,,,
+2014,561,Administrative and support services,102,1.14646,True,0.04951,0.05613,0.8741,1.32226,ACCENTURE HOLDINGS PLC
+2014,562,Waste management and remediation services,12,1.12942,True,0.00614,0.00684,0.94799,1.25027,WASTE MANAGEMENT INC
+2014,61,Educational services,17,1.07161,True,0.0215,0.02102,0.81548,1.1376,GRAHAM HOLDINGS CO
+2014,621,Ambulatory health care services,21,1.12936,True,0.05924,0.05776,0.52805,1.16727,QUEST DIAGNOSTICS INC
+2014,622,Hospitals,6,1.07983,True,0.04843,0.04709,0.91471,1.21663,UNIVERSAL HEALTH SERVICES INC
+2014,623,Nursing and residential care facilities,5,0.90445,True,0.01443,0.01403,0.47718,0.99463,BROOKDALE SENIOR LIVING INC.
+2014,624,Social assistance,1,1.08771,False,0.01204,0.0117,1.0992,1.0992,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2014,711AS,"Performing arts, spectator sports, museums, and related activities",4,1.08771,False,0.01059,0.01131,0.9992,1.12429,INTERNATIONAL SPEEDWAY CORP
+2014,713,"Amusements, gambling, and recreation industries",20,1.01102,True,0.00851,0.00834,0.75886,1.14411,"LIVE NATION ENTERTAINMENT, INC."
+2014,721,Accommodation,27,1.10118,True,0.01592,0.01622,0.88119,1.15846,LAS VEGAS SANDS CORP
+2014,722,Food services and drinking places,57,1.13767,True,0.04438,0.04495,0.95743,1.18965,MCDONALDS CORP
+2014,81,"Other services, except government",12,1.1322,True,0.04086,0.04189,0.62426,1.19109,H&R BLOCK INC
+2015,111CA,Farms,16,1.08722,True,0.02528,0.02921,0.21902,1.26714,FRESH DEL MONTE PRODUCE INC
+2015,113FF,"Forestry, fishing, and related activities",2,1.06118,False,0.00343,0.00488,0.85536,1.17849,"SINO AGRO FOOD, INC."
+2015,211,Oil and gas extraction,52,0.4329,True,0.01514,0.01835,0.21147,1.02374,DEVON ENERGY CORP/DE
+2015,212,"Mining, except oil and gas",23,0.69501,True,0.00655,0.00688,0.21141,1.14062,FREEPORT-MCMORAN INC
+2015,213,Support activities for mining,30,0.97449,True,0.00849,0.00783,0.58865,1.10947,SCHLUMBERGER LIMITED/NV
+2015,22,Utilities,90,1.01807,True,0.03086,0.03304,0.71002,1.16393,EXELON CORP
+2015,23,Construction,31,1.02416,True,0.08748,0.08688,0.92533,1.08559,FLUOR CORP
+2015,321,Wood products,12,1.05031,True,0.00626,0.0068,0.999,1.10991,"FORTUNE BRANDS INNOVATIONS, INC."
+2015,327,Nonmetallic mineral products,16,1.04756,True,0.00745,0.00799,0.78864,1.12805,OWENS-ILLINOIS GROUP INC
+2015,331,Primary metals,37,0.98226,True,0.01432,0.01946,0.86471,1.06139,HOWMET AEROSPACE INC.
+2015,332,Fabricated metal products,49,1.07844,True,0.02213,0.02414,0.9723,1.21762,PARKER HANNIFIN CORP
+2015,333,Machinery,101,1.02889,True,0.02394,0.02437,0.83095,1.16441,JOHNSON CONTROLS INTERNATIONAL PLC
+2015,334,Computer and electronic products,328,1.14725,True,0.02178,0.02333,0.7248,1.23589,APPLE INC
+2015,335,"Electrical equipment, appliances, and components",41,1.06203,True,0.00798,0.00849,0.63458,1.15579,GENERAL ELECTRIC CO
+2015,3361MV,"Motor vehicles, bodies and trailers, and parts",49,1.04711,True,0.03966,0.041,0.95974,1.13925,GENERAL MOTORS CO
+2015,3364OT,Other transportation equipment,33,1.12023,True,0.0204,0.02063,0.93038,1.213,BOEING CO
+2015,337,Furniture and related products,16,1.06117,True,0.00469,0.00471,1.0231,1.10055,JOHNSON CONTROLS INC
+2015,339,Miscellaneous manufacturing,155,1.13344,True,0.01044,0.0107,0.23973,1.21243,3M CO
+2015,311FT,Food and beverage and tobacco products,68,1.13072,True,0.05966,0.06242,0.93423,1.20573,PEPSICO INC
+2015,313TT,Textile mills and textile product mills,8,1.07949,True,0.00331,0.0036,1.02817,1.12122,MOHAWK INDUSTRIES INC
+2015,315AL,Apparel and leather and allied products,30,1.11923,True,0.00116,0.00129,1.03018,1.21203,V F CORP
+2015,322,Paper products,18,1.03691,True,0.01157,0.01292,0.98834,1.11268,INTERNATIONAL PAPER CO /NEW/
+2015,323,Printing and related support activities,10,1.06759,True,0.00517,0.0055,1.02057,1.12355,RR DONNELLEY & SONS CO
+2015,324,Petroleum and coal products,14,0.9378,True,0.03137,0.03232,0.59433,1.10589,CHEVRON CORP
+2015,325,Chemical products,346,1.11886,True,0.04889,0.05414,0.18043,1.22717,PFIZER INC
+2015,326,Plastics and rubber products,24,1.10112,True,0.01468,0.01619,0.95594,1.14547,"NIKE, INC."
+2015,42,Wholesale trade,101,1.02218,True,0.11942,0.12459,0.9197,1.10084,MCKESSON CORP
+2015,441,Motor vehicle and parts dealers,17,1.03986,True,0.01916,0.01892,1.00295,1.12861,"AUTONATION, INC."
+2015,445,Food and beverage stores,14,1.03556,True,0.01451,0.01422,1.01659,1.08673,KROGER CO
+2015,452,General merchandise stores,16,1.03746,True,0.01435,0.01408,0.98461,1.10439,WALMART INC.
+2015,4A0,Other retail,108,1.05773,True,0.05743,0.05677,0.96379,1.13406,CVS HEALTH CORP
+2015,481,Air transportation,18,1.10904,True,0.01383,0.01424,0.91511,1.22965,FEDEX CORP
+2015,482,Rail transportation,5,1.23958,True,0.00517,0.00557,0.97266,1.29614,"BURLINGTON NORTHERN SANTA FE, LLC"
+2015,483,Water transportation,15,1.00334,True,0.00324,0.00326,0.66595,1.1923,CARNIVAL CORP
+2015,484,Truck transportation,12,1.11338,True,0.02114,0.0223,1.01945,1.1239,UNITED PARCEL SERVICE INC
+2015,485,Transit and ground passenger transportation,0,1.06118,False,0.0042,0.00438,,,
+2015,486,Pipeline transportation,2,1.06118,False,0.00277,0.00264,0.63449,0.945,"ENERGY TRANSFER OPERATING, L.P."
+2015,487OS,Other transportation and support activities,11,1.08457,True,0.01392,0.01557,1.00675,1.11586,"C. H. ROBINSON WORLDWIDE, INC."
+2015,493,Warehousing and storage,0,1.06118,False,0.00704,0.00761,,,
+2015,511,"Publishing industries, except internet (includes software)",118,1.15214,True,0.02061,0.02065,0.636,1.22418,MICROSOFT CORP
+2015,512,Motion picture and sound recording industries,13,1.06219,True,0.009,0.00958,0.88437,1.11295,AMC ENTERTAINMENT INC
+2015,513,Broadcasting and telecommunications,72,1.15747,True,0.0517,0.05325,0.87925,1.30338,COMCAST CORP
+2015,514,"Data processing, internet publishing, and other information services",63,1.19892,True,0.01821,0.0193,0.7103,1.21715,ALPHABET INC.
+2015,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.06118,False,0.05681,0.05975,,,
+2015,523,"Securities, commodity contracts, and investments",0,1.06118,False,0.03398,0.03473,,,
+2015,524,Insurance carriers and related activities,0,1.06118,False,0.06039,0.06452,,,
+2015,525,"Funds, trusts, and other financial vehicles",0,1.06118,False,0.01035,0.01026,,,
+2015,HS,Housing,0,1.06118,False,0.11818,0.11567,,,
+2015,ORE,Other real estate,0,1.06118,False,0.07202,0.07853,,,
+2015,532RL,Rental and leasing services and lessors of intangible assets,6,1.04915,True,0.02107,0.02278,1.01535,1.14581,HERTZ CORP
+2015,5411,Legal services,0,1.06118,False,0.02063,0.02182,,,
+2015,5415,Computer systems design and related services,52,0.98943,True,0.02517,0.02599,0.66796,1.25888,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+2015,5412OP,"Miscellaneous professional, scientific, and technical services",53,1.10279,True,0.07925,0.08626,0.75053,1.1794,OMNICOM GROUP INC.
+2015,55,Management of companies and enterprises,0,1.06118,False,0.034,0.0372,,,
+2015,561,Administrative and support services,107,1.13527,True,0.05073,0.05605,0.84072,1.30338,ACCENTURE HOLDINGS PLC
+2015,562,Waste management and remediation services,13,1.08511,True,0.00605,0.00652,0.89764,1.16609,WASTE MANAGEMENT INC
+2015,61,Educational services,13,1.02251,True,0.0213,0.02093,0.89935,1.15962,GRAHAM HOLDINGS CO
+2015,621,Ambulatory health care services,26,1.11639,True,0.0601,0.05898,0.18216,1.18974,LABORATORY CORP OF AMERICA HOLDINGS
+2015,622,Hospitals,5,1.08196,True,0.04949,0.04845,0.97304,1.11831,UNIVERSAL HEALTH SERVICES INC
+2015,623,Nursing and residential care facilities,4,0.89436,True,0.01448,0.01418,0.38953,0.94314,BROOKDALE SENIOR LIVING INC.
+2015,624,Social assistance,1,1.06118,False,0.01225,0.01199,1.11752,1.11752,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2015,711AS,"Performing arts, spectator sports, museums, and related activities",5,1.06118,False,0.01091,0.01155,0.89656,1.09338,INTERNATIONAL SPEEDWAY CORP
+2015,713,"Amusements, gambling, and recreation industries",18,1.02864,True,0.00862,0.00848,0.92988,1.13705,"LIVE NATION ENTERTAINMENT, INC."
+2015,721,Accommodation,26,1.07246,True,0.01621,0.01645,0.94881,1.16658,LAS VEGAS SANDS CORP
+2015,722,Food services and drinking places,52,1.14456,True,0.04635,0.04694,0.9308,1.20661,MCDONALDS CORP
+2015,81,"Other services, except government",10,1.13752,True,0.04079,0.04159,0.83204,1.17307,H&R BLOCK INC
+2016,111CA,Farms,15,1.0448,True,0.02314,0.02664,0.17315,1.20515,FRESH DEL MONTE PRODUCE INC
+2016,113FF,"Forestry, fishing, and related activities",2,1.06999,False,0.00311,0.00436,0.55921,1.10323,"SINO AGRO FOOD, INC."
+2016,211,Oil and gas extraction,49,0.63394,True,0.01217,0.01411,0.37099,0.91045,DEVON ENERGY CORP/DE
+2016,212,"Mining, except oil and gas",25,0.90777,True,0.00578,0.00618,0.62494,1.15013,FREEPORT-MCMORAN INC
+2016,213,Support activities for mining,33,0.80128,True,0.00445,0.00422,0.56464,1.04726,SCHLUMBERGER LIMITED/NV
+2016,22,Utilities,81,1.0017,True,0.02866,0.03083,0.74682,1.20053,EXELON CORP
+2016,23,Construction,29,1.03227,True,0.09192,0.09143,0.90031,1.08971,FLUOR CORP
+2016,321,Wood products,13,1.0811,True,0.00629,0.00692,1.04434,1.13402,"FORTUNE BRANDS INNOVATIONS, INC."
+2016,327,Nonmetallic mineral products,15,1.07614,True,0.00761,0.00823,0.67865,1.12944,OWENS-ILLINOIS GROUP INC
+2016,331,Primary metals,35,1.0171,True,0.01245,0.01689,0.87641,1.08844,NUCOR CORP
+2016,332,Fabricated metal products,48,1.07887,True,0.02089,0.02295,0.96372,1.22471,"STANLEY BLACK & DECKER, INC."
+2016,333,Machinery,96,1.02456,True,0.02179,0.02231,0.74731,1.14378,JOHNSON CONTROLS INTERNATIONAL PLC
+2016,334,Computer and electronic products,297,1.14439,True,0.02117,0.02277,0.74322,1.24658,APPLE INC
+2016,335,"Electrical equipment, appliances, and components",40,1.06875,True,0.00749,0.00803,0.6728,1.16324,GENERAL ELECTRIC CO
+2016,3361MV,"Motor vehicles, bodies and trailers, and parts",49,1.04157,True,0.03815,0.03948,1.00668,1.13331,GENERAL MOTORS CO
+2016,3364OT,Other transportation equipment,33,1.11589,True,0.01838,0.01859,0.96728,1.19764,BOEING CO
+2016,337,Furniture and related products,15,1.05019,True,0.00462,0.00466,1.01576,1.11229,JOHNSON CONTROLS INC
+2016,339,Miscellaneous manufacturing,141,1.1492,True,0.00961,0.00988,0.31539,1.22778,3M CO
+2016,311FT,Food and beverage and tobacco products,65,1.14229,True,0.05803,0.06064,0.93204,1.27373,PEPSICO INC
+2016,313TT,Textile mills and textile product mills,8,1.11748,True,0.00314,0.00344,1.02902,1.14127,MOHAWK INDUSTRIES INC
+2016,315AL,Apparel and leather and allied products,30,1.09755,True,0.00113,0.0012,0.97042,1.17379,V F CORP
+2016,322,Paper products,19,1.03025,True,0.01092,0.01229,0.98351,1.11569,INTERNATIONAL PAPER CO /NEW/
+2016,323,Printing and related support activities,8,1.06329,True,0.00525,0.00564,1.01908,1.15572,"QUAD/GRAPHICS, INC."
+2016,324,Petroleum and coal products,12,0.90299,True,0.0263,0.0271,0.5194,1.0473,CHEVRON CORP
+2016,325,Chemical products,355,1.10661,True,0.04677,0.05153,0.17315,1.22218,PFIZER INC
+2016,326,Plastics and rubber products,24,1.10766,True,0.0141,0.01559,0.99152,1.13147,"NIKE, INC."
+2016,42,Wholesale trade,102,1.02745,True,0.11718,0.12249,0.94419,1.10694,MCKESSON CORP
+2016,441,Motor vehicle and parts dealers,18,1.044,True,0.02047,0.02023,1.00159,1.12298,"AUTONATION, INC."
+2016,445,Food and beverage stores,11,1.03092,True,0.01446,0.01419,1.01235,1.04572,KROGER CO
+2016,452,General merchandise stores,15,1.03576,True,0.01399,0.01375,0.98447,1.10913,WALMART INC.
+2016,4A0,Other retail,103,1.06067,True,0.0585,0.05791,0.94722,1.14549,CVS HEALTH CORP
+2016,481,Air transportation,15,1.09839,True,0.01351,0.01399,0.9227,1.19585,FEDEX CORP
+2016,482,Rail transportation,4,1.21791,True,0.00461,0.00499,1.0617,1.30623,UNION PACIFIC CORP
+2016,483,Water transportation,14,1.00127,True,0.0031,0.00311,0.46407,1.06587,CARNIVAL CORP
+2016,484,Truck transportation,12,1.07255,True,0.02057,0.02171,1.00715,1.09823,UNITED PARCEL SERVICE INC
+2016,485,Transit and ground passenger transportation,0,1.06999,False,0.00415,0.00435,,,
+2016,486,Pipeline transportation,1,1.06999,False,0.00275,0.00264,1.00887,1.00887,"ENERGY TRANSFER OPERATING, L.P."
+2016,487OS,Other transportation and support activities,11,1.08951,True,0.01391,0.01554,1.00373,1.11689,"XPO, INC."
+2016,493,Warehousing and storage,0,1.06999,False,0.0072,0.00788,,,
+2016,511,"Publishing industries, except internet (includes software)",110,1.18576,True,0.0218,0.02206,0.71603,1.26862,MICROSOFT CORP
+2016,512,Motion picture and sound recording industries,10,1.05487,True,0.00913,0.00979,0.87678,1.14049,"AMC ENTERTAINMENT HOLDINGS, INC."
+2016,513,Broadcasting and telecommunications,62,1.16001,True,0.05272,0.05448,0.7966,1.32074,COMCAST CORP
+2016,514,"Data processing, internet publishing, and other information services",60,1.21461,True,0.01971,0.02106,0.76157,1.24832,ALPHABET INC.
+2016,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.06999,False,0.05941,0.06283,,,
+2016,523,"Securities, commodity contracts, and investments",0,1.06999,False,0.03234,0.03324,,,
+2016,524,Insurance carriers and related activities,0,1.06999,False,0.05965,0.0644,,,
+2016,525,"Funds, trusts, and other financial vehicles",0,1.06999,False,0.00963,0.00956,,,
+2016,HS,Housing,0,1.06999,False,0.11932,0.11694,,,
+2016,ORE,Other real estate,0,1.06999,False,0.07456,0.08158,,,
+2016,532RL,Rental and leasing services and lessors of intangible assets,5,1.02761,True,0.02081,0.02265,0.97947,1.10904,NETFLIX INC
+2016,5411,Legal services,0,1.06999,False,0.02041,0.02177,,,
+2016,5415,Computer systems design and related services,46,1.0643,True,0.02644,0.02747,0.72867,1.21995,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+2016,5412OP,"Miscellaneous professional, scientific, and technical services",53,1.09412,True,0.07966,0.08752,0.85286,1.18406,OMNICOM GROUP INC.
+2016,55,Management of companies and enterprises,0,1.06999,False,0.03297,0.03633,,,
+2016,561,Administrative and support services,104,1.15938,True,0.05339,0.0596,0.82254,1.32074,ACCENTURE PLC
+2016,562,Waste management and remediation services,11,1.11965,True,0.00641,0.00702,0.95625,1.13734,WASTE MANAGEMENT INC
+2016,61,Educational services,14,1.02484,True,0.02132,0.02097,0.91293,1.14806,"LAUREATE EDUCATION, INC."
+2016,621,Ambulatory health care services,22,1.09735,True,0.06185,0.06075,0.50311,1.18924,LABORATORY CORP OF AMERICA HOLDINGS
+2016,622,Hospitals,5,1.09381,True,0.05004,0.04905,1.02935,1.23345,UNIVERSAL HEALTH SERVICES INC
+2016,623,Nursing and residential care facilities,4,0.92449,True,0.0146,0.01431,0.39261,0.95579,BROOKDALE SENIOR LIVING INC.
+2016,624,Social assistance,1,1.06999,False,0.01274,0.01249,1.118,1.118,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2016,711AS,"Performing arts, spectator sports, museums, and related activities",3,1.06999,False,0.01115,0.01186,1.03093,1.09212,INTERNATIONAL SPEEDWAY CORP
+2016,713,"Amusements, gambling, and recreation industries",18,1.02348,True,0.0088,0.00867,0.78175,1.1429,"LIVE NATION ENTERTAINMENT, INC."
+2016,721,Accommodation,23,1.0964,True,0.01641,0.01676,0.96768,1.15769,MARRIOTT INTERNATIONAL INC /MD/
+2016,722,Food services and drinking places,47,1.11332,True,0.04729,0.04807,0.86714,1.21233,STARBUCKS CORP
+2016,81,"Other services, except government",11,1.092,True,0.04156,0.04237,0.98077,1.15332,SERVICE CORP INTERNATIONAL
+2017,111CA,Farms,12,1.02301,True,0.02305,0.02638,0.28099,1.08511,FRESH DEL MONTE PRODUCE INC
+2017,113FF,"Forestry, fishing, and related activities",3,1.0744,False,0.00311,0.00432,0.30211,1.23789,"SINO AGRO FOOD, INC."
+2017,211,Oil and gas extraction,73,0.92451,True,0.0148,0.01894,0.58443,1.30426,DEVON ENERGY CORP/DE
+2017,212,"Mining, except oil and gas",33,1.12712,True,0.00594,0.00664,0.70748,1.25759,FREEPORT-MCMORAN INC
+2017,213,Support activities for mining,49,0.9081,True,0.00623,0.00625,0.6817,1.04543,SCHLUMBERGER LIMITED/NV
+2017,22,Utilities,93,1.03819,True,0.02764,0.02993,0.87294,1.30308,EXELON CORP
+2017,23,Construction,41,1.05378,True,0.09198,0.09149,0.96505,1.10383,FLUOR CORP
+2017,321,Wood products,12,1.09797,True,0.00632,0.0073,1.05097,1.20191,"FORTUNE BRANDS INNOVATIONS, INC."
+2017,327,Nonmetallic mineral products,14,1.05186,True,0.00742,0.00815,0.93631,1.09317,OWENS-ILLINOIS GROUP INC
+2017,331,Primary metals,35,1.0524,True,0.01299,0.01957,0.9284,1.09367,NUCOR CORP
+2017,332,Fabricated metal products,48,1.09093,True,0.02018,0.02273,0.95667,1.20254,"STANLEY BLACK & DECKER, INC."
+2017,333,Machinery,101,1.07997,True,0.02205,0.02299,0.87583,1.16453,JOHNSON CONTROLS INTERNATIONAL PLC
+2017,334,Computer and electronic products,295,1.16005,True,0.02065,0.02232,0.66282,1.2539,APPLE INC
+2017,335,"Electrical equipment, appliances, and components",40,0.97061,True,0.00724,0.00788,0.66809,1.20105,GENERAL ELECTRIC CO
+2017,3361MV,"Motor vehicles, bodies and trailers, and parts",48,1.05864,True,0.03481,0.03656,1.01064,1.12676,FORD MOTOR CO
+2017,3364OT,Other transportation equipment,33,1.13155,True,0.01956,0.01986,0.9399,1.1727,BOEING CO
+2017,337,Furniture and related products,16,1.07199,True,0.00445,0.00451,1.02002,1.09534,LEGGETT & PLATT INC
+2017,339,Miscellaneous manufacturing,141,1.14455,True,0.00926,0.00951,0.39949,1.24294,3M CO
+2017,311FT,Food and beverage and tobacco products,64,1.14323,True,0.05556,0.05782,0.90483,1.27954,PEPSICO INC
+2017,313TT,Textile mills and textile product mills,8,1.11506,True,0.0029,0.00322,1.02566,1.11645,MOHAWK INDUSTRIES INC
+2017,315AL,Apparel and leather and allied products,29,1.09553,True,0.00092,0.00097,1.00214,1.18201,V F CORP
+2017,322,Paper products,21,1.04924,True,0.0108,0.01218,0.95269,1.11927,INTERNATIONAL PAPER CO /NEW/
+2017,323,Printing and related support activities,8,1.03923,True,0.00489,0.00529,0.94101,1.15604,"QUAD/GRAPHICS, INC."
+2017,324,Petroleum and coal products,12,0.98242,True,0.03141,0.03266,0.50018,1.04601,CHEVRON CORP
+2017,325,Chemical products,384,1.07447,True,0.04562,0.05024,0.14762,1.21753,"DUPONT DE NEMOURS, INC."
+2017,326,Plastics and rubber products,22,1.09699,True,0.01386,0.01543,1.00683,1.12735,"NIKE, INC."
+2017,42,Wholesale trade,100,1.01747,True,0.11972,0.12548,0.95675,1.09048,MCKESSON CORP
+2017,441,Motor vehicle and parts dealers,16,1.04281,True,0.02074,0.02049,1.01265,1.13216,"AUTONATION, INC."
+2017,445,Food and beverage stores,12,1.01094,True,0.01453,0.01423,0.96848,1.03936,KROGER CO
+2017,452,General merchandise stores,16,1.03247,True,0.01364,0.01338,0.95598,1.10816,WALMART INC.
+2017,4A0,Other retail,98,1.0536,True,0.05876,0.05817,0.92039,1.12556,CVS HEALTH CORP
+2017,481,Air transportation,17,1.07516,True,0.01377,0.01434,0.96013,1.13119,FEDEX CORP
+2017,482,Rail transportation,4,1.25965,True,0.00464,0.00508,1.11436,1.31734,"BURLINGTON NORTHERN SANTA FE, LLC"
+2017,483,Water transportation,16,1.04192,True,0.0032,0.00322,0.57094,1.08411,CARNIVAL CORP
+2017,484,Truck transportation,15,1.08772,True,0.0214,0.02276,0.99626,1.0902,UNITED PARCEL SERVICE INC
+2017,485,Transit and ground passenger transportation,0,1.0744,False,0.00456,0.00479,,,
+2017,486,Pipeline transportation,0,1.0744,False,0.0028,0.00292,,,
+2017,487OS,Other transportation and support activities,15,1.08492,True,0.01391,0.01563,0.98364,1.23336,"XPO, INC."
+2017,493,Warehousing and storage,0,1.0744,False,0.00722,0.00801,,,
+2017,511,"Publishing industries, except internet (includes software)",131,1.17496,True,0.02246,0.02271,0.74978,1.24562,MICROSOFT CORP
+2017,512,Motion picture and sound recording industries,10,1.05283,True,0.00879,0.00936,0.93965,1.11628,"AMC ENTERTAINMENT HOLDINGS, INC."
+2017,513,Broadcasting and telecommunications,68,1.1447,True,0.05025,0.05178,0.83534,1.31734,COMCAST CORP
+2017,514,"Data processing, internet publishing, and other information services",67,1.1762,True,0.02129,0.0228,0.54666,1.26391,ALPHABET INC.
+2017,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.0744,False,0.06166,0.06577,,,
+2017,523,"Securities, commodity contracts, and investments",0,1.0744,False,0.03202,0.03299,,,
+2017,524,Insurance carriers and related activities,0,1.0744,False,0.0608,0.06574,,,
+2017,525,"Funds, trusts, and other financial vehicles",0,1.0744,False,0.00917,0.00907,,,
+2017,HS,Housing,0,1.0744,False,0.11854,0.11594,,,
+2017,ORE,Other real estate,0,1.0744,False,0.07374,0.08093,,,
+2017,532RL,Rental and leasing services and lessors of intangible assets,6,1.03363,True,0.02033,0.02223,0.54084,1.0979,NETFLIX INC
+2017,5411,Legal services,1,1.0744,False,0.02068,0.02217,1.03725,1.03725,"CRA INTERNATIONAL, INC."
+2017,5415,Computer systems design and related services,43,1.08737,True,0.02775,0.02888,0.7429,1.1902,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+2017,5412OP,"Miscellaneous professional, scientific, and technical services",60,1.08234,True,0.08005,0.08816,0.8371,1.19245,OMNICOM GROUP INC.
+2017,55,Management of companies and enterprises,0,1.0744,False,0.03314,0.03691,,,
+2017,561,Administrative and support services,123,1.14073,True,0.05477,0.06129,0.8967,1.30291,ACCENTURE HOLDINGS PLC
+2017,562,Waste management and remediation services,15,1.10442,True,0.00674,0.00742,0.92149,1.1521,WASTE MANAGEMENT INC
+2017,61,Educational services,17,1.06608,True,0.02084,0.02046,0.83518,1.11354,"LAUREATE EDUCATION, INC."
+2017,621,Ambulatory health care services,29,1.09135,True,0.0625,0.06126,0.46522,1.18847,DAVITA INC.
+2017,622,Hospitals,8,1.08965,True,0.04932,0.04832,1.01176,1.20103,UNIVERSAL HEALTH SERVICES INC
+2017,623,Nursing and residential care facilities,7,0.96159,True,0.01422,0.0139,0.89425,1.0477,BROOKDALE SENIOR LIVING INC.
+2017,624,Social assistance,1,1.0744,False,0.01308,0.0128,1.11074,1.11074,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2017,711AS,"Performing arts, spectator sports, museums, and related activities",4,1.06824,True,0.0116,0.01228,1.0119,1.11538,CHURCHILL DOWNS INC
+2017,713,"Amusements, gambling, and recreation industries",15,1.00472,True,0.00895,0.0088,0.85214,1.14752,"LIVE NATION ENTERTAINMENT, INC."
+2017,721,Accommodation,28,1.10923,True,0.01649,0.01685,0.9471,1.18908,MARRIOTT INTERNATIONAL INC /MD/
+2017,722,Food services and drinking places,41,1.10931,True,0.04765,0.04843,0.89676,1.12376,STARBUCKS CORP
+2017,81,"Other services, except government",13,1.13238,True,0.04132,0.04216,0.78397,1.24068,H&R BLOCK INC
+2018,111CA,Farms,14,0.7715,True,0.02183,0.02218,0.27749,1.04844,"CORTEVA, INC."
+2018,113FF,"Forestry, fishing, and related activities",3,1.06936,False,0.00293,0.00359,0.27014,1.01161,"SINO AGRO FOOD, INC."
+2018,211,Oil and gas extraction,86,1.02822,True,0.01915,0.02343,0.58414,1.3271,OCCIDENTAL PETROLEUM CORP /DE/
+2018,212,"Mining, except oil and gas",35,1.09623,True,0.00591,0.00649,0.73658,1.28478,FREEPORT-MCMORAN INC
+2018,213,Support activities for mining,51,0.94918,True,0.0073,0.0075,0.5931,1.3271,SCHLUMBERGER LIMITED/NV
+2018,22,Utilities,83,0.96533,True,0.02848,0.03033,0.84716,1.21521,EXELON CORP
+2018,23,Construction,42,1.06943,True,0.09183,0.09127,1.00028,1.12133,LENNAR CORP /NEW/
+2018,321,Wood products,11,1.08585,True,0.00665,0.00752,1.02727,1.24291,"FORTUNE BRANDS INNOVATIONS, INC."
+2018,327,Nonmetallic mineral products,14,1.05451,True,0.00726,0.00797,0.96163,1.10297,OWENS CORNING
+2018,331,Primary metals,35,1.07527,True,0.01407,0.02059,0.94662,1.10112,NUCOR CORP
+2018,332,Fabricated metal products,49,1.04881,True,0.02062,0.02288,0.84936,1.16373,PARKER HANNIFIN CORP
+2018,333,Machinery,94,1.07873,True,0.02153,0.02238,0.81219,1.16719,DEERE & CO
+2018,334,Computer and electronic products,283,1.19798,True,0.02026,0.02191,0.7007,1.2799,APPLE INC
+2018,335,"Electrical equipment, appliances, and components",36,0.91168,True,0.00708,0.00764,0.69718,1.18501,GENERAL ELECTRIC CO
+2018,3361MV,"Motor vehicles, bodies and trailers, and parts",47,1.02473,True,0.03525,0.03626,0.9452,1.12306,FORD MOTOR CO
+2018,3364OT,Other transportation equipment,32,1.13403,True,0.0195,0.01987,0.90301,1.16898,BOEING CO
+2018,337,Furniture and related products,15,1.06786,True,0.00424,0.00432,1.02246,1.08869,LEGGETT & PLATT INC
+2018,339,Miscellaneous manufacturing,152,1.11776,True,0.00925,0.00945,0.25458,1.21169,3M CO
+2018,311FT,Food and beverage and tobacco products,61,1.08768,True,0.05285,0.05355,0.83164,1.23262,PEPSICO INC
+2018,313TT,Textile mills and textile product mills,8,1.07451,True,0.0028,0.00304,0.99743,1.10672,MOHAWK INDUSTRIES INC
+2018,315AL,Apparel and leather and allied products,29,1.10263,True,0.00094,0.001,1.00848,1.15743,V F CORP
+2018,322,Paper products,19,1.05264,True,0.01051,0.01162,0.88361,1.12414,INTERNATIONAL PAPER CO /NEW/
+2018,323,Printing and related support activities,8,1.03177,True,0.0046,0.00493,0.96328,1.12823,"QUAD/GRAPHICS, INC."
+2018,324,Petroleum and coal products,14,1.04945,True,0.03696,0.03811,0.94136,1.09703,EXXON MOBIL CORP
+2018,325,Chemical products,419,1.08217,True,0.04561,0.04877,0.11032,1.2071,"DUPONT DE NEMOURS, INC."
+2018,326,Plastics and rubber products,21,0.98887,True,0.01397,0.01512,0.80438,1.13349,"NIKE, INC."
+2018,42,Wholesale trade,97,1.01637,True,0.12019,0.12417,0.93159,1.08633,MCKESSON CORP
+2018,441,Motor vehicle and parts dealers,19,1.03865,True,0.02047,0.02023,0.99387,1.17844,"PENSKE AUTOMOTIVE GROUP, INC."
+2018,445,Food and beverage stores,11,1.01531,True,0.01398,0.01372,0.99864,1.03393,KROGER CO
+2018,452,General merchandise stores,17,1.02847,True,0.0134,0.01316,0.96354,1.09633,WALMART INC.
+2018,4A0,Other retail,100,1.03942,True,0.05903,0.05849,0.88921,1.11668,AMAZON COM INC
+2018,481,Air transportation,17,1.04319,True,0.01402,0.01447,0.83363,1.07821,FEDEX CORP
+2018,482,Rail transportation,5,1.21249,True,0.00478,0.00512,1.09857,1.3067,"BURLINGTON NORTHERN SANTA FE, LLC"
+2018,483,Water transportation,17,1.02648,True,0.0033,0.0033,0.62793,1.07037,CARNIVAL CORP
+2018,484,Truck transportation,17,1.07354,True,0.02218,0.02315,1.01761,1.09297,UNITED PARCEL SERVICE INC
+2018,485,Transit and ground passenger transportation,0,1.06936,False,0.00527,0.00553,,,
+2018,486,Pipeline transportation,0,1.06936,False,0.00307,0.00331,,,
+2018,487OS,Other transportation and support activities,17,1.08685,True,0.01418,0.01558,0.97128,1.09465,"XPO, INC."
+2018,493,Warehousing and storage,0,1.06936,False,0.00718,0.0078,,,
+2018,511,"Publishing industries, except internet (includes software)",134,1.1802,True,0.0221,0.02231,0.67807,1.23429,MICROSOFT CORP
+2018,512,Motion picture and sound recording industries,9,1.05013,True,0.00898,0.00956,0.83075,1.09741,"AMC ENTERTAINMENT HOLDINGS, INC."
+2018,513,Broadcasting and telecommunications,62,1.13165,True,0.04901,0.05041,0.79767,1.31227,COMCAST CORP
+2018,514,"Data processing, internet publishing, and other information services",70,1.17441,True,0.02367,0.02503,0.65182,1.19492,ALPHABET INC.
+2018,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.06936,False,0.06144,0.06484,,,
+2018,523,"Securities, commodity contracts, and investments",0,1.06936,False,0.03203,0.03299,,,
+2018,524,Insurance carriers and related activities,0,1.06936,False,0.06064,0.06462,,,
+2018,525,"Funds, trusts, and other financial vehicles",0,1.06936,False,0.00824,0.00816,,,
+2018,HS,Housing,0,1.06936,False,0.11692,0.11454,,,
+2018,ORE,Other real estate,0,1.06936,False,0.07408,0.08068,,,
+2018,532RL,Rental and leasing services and lessors of intangible assets,6,1.05163,True,0.02101,0.02282,0.68216,1.08673,NETFLIX INC
+2018,5411,Legal services,1,1.06936,False,0.01982,0.02109,1.06549,1.06549,"CRA INTERNATIONAL, INC."
+2018,5415,Computer systems design and related services,44,1.0953,True,0.02869,0.02975,0.66638,1.18584,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+2018,5412OP,"Miscellaneous professional, scientific, and technical services",61,1.08011,True,0.08078,0.08818,0.91171,1.1606,AECOM
+2018,55,Management of companies and enterprises,0,1.06936,False,0.03321,0.0366,,,
+2018,561,Administrative and support services,117,1.13721,True,0.05617,0.06227,0.92819,1.29841,ACCENTURE PLC
+2018,562,Waste management and remediation services,15,1.0971,True,0.00682,0.00747,0.91534,1.12516,WASTE MANAGEMENT INC
+2018,61,Educational services,17,1.07345,True,0.02042,0.02008,0.81956,1.23823,"LAUREATE EDUCATION, INC."
+2018,621,Ambulatory health care services,32,1.0746,True,0.06129,0.06015,0.55085,1.15497,DAVITA INC.
+2018,622,Hospitals,7,1.07461,True,0.04883,0.04783,1.0208,1.13894,UNIVERSAL HEALTH SERVICES INC
+2018,623,Nursing and residential care facilities,6,0.92716,True,0.01383,0.01354,0.85184,1.0489,BROOKDALE SENIOR LIVING INC.
+2018,624,Social assistance,1,1.06936,False,0.01306,0.01279,1.11648,1.11648,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2018,711AS,"Performing arts, spectator sports, museums, and related activities",4,1.06467,True,0.01172,0.01236,0.99088,1.13837,CHURCHILL DOWNS INC
+2018,713,"Amusements, gambling, and recreation industries",14,1.20815,True,0.00896,0.00883,0.94868,1.24199,WALT DISNEY CO
+2018,721,Accommodation,29,1.09613,True,0.01646,0.01678,0.93965,1.2465,MARRIOTT INTERNATIONAL INC /MD/
+2018,722,Food services and drinking places,39,1.09521,True,0.0477,0.04834,0.91631,1.12699,STARBUCKS CORP
+2018,81,"Other services, except government",13,1.1112,True,0.04096,0.0417,0.59273,1.16854,SERVICE CORP INTERNATIONAL
+2019,111CA,Farms,13,0.98157,True,0.02052,0.02285,0.47102,1.05301,"CORTEVA, INC."
+2019,113FF,"Forestry, fishing, and related activities",3,1.06361,False,0.0027,0.00363,0.28461,1.04158,"SINO AGRO FOOD, INC."
+2019,211,Oil and gas extraction,76,0.82996,True,0.01671,0.01747,0.43908,1.28308,OCCIDENTAL PETROLEUM CORP /DE/
+2019,212,"Mining, except oil and gas",34,1.04303,True,0.00561,0.00601,0.53619,1.26076,FREEPORT-MCMORAN INC
+2019,213,Support activities for mining,46,0.82419,True,0.00717,0.00689,0.67485,1.30747,SCHLUMBERGER LIMITED/NV
+2019,22,Utilities,79,1.00541,True,0.02739,0.02899,0.83844,1.25119,EXELON CORP
+2019,23,Construction,38,1.05117,True,0.0916,0.09112,0.96513,1.11896,LENNAR CORP /NEW/
+2019,321,Wood products,12,1.06827,True,0.00594,0.00656,1.03534,1.27034,"FORTUNE BRANDS INNOVATIONS, INC."
+2019,327,Nonmetallic mineral products,10,1.01632,True,0.00714,0.00766,0.7801,1.09118,OWENS CORNING
+2019,331,Primary metals,35,1.02601,True,0.01248,0.01775,0.90584,1.08491,NUCOR CORP
+2019,332,Fabricated metal products,51,1.08633,True,0.01996,0.02186,0.84895,1.16983,"STANLEY BLACK & DECKER, INC."
+2019,333,Machinery,100,1.04805,True,0.02068,0.02115,0.80021,1.17933,DEERE & CO
+2019,334,Computer and electronic products,271,1.18895,True,0.01942,0.02065,0.72914,1.25168,APPLE INC
+2019,335,"Electrical equipment, appliances, and components",36,1.04095,True,0.00695,0.00747,0.66179,1.16264,GENERAL ELECTRIC CO
+2019,3361MV,"Motor vehicles, bodies and trailers, and parts",48,1.02147,True,0.03439,0.03504,0.89225,1.1165,FORD MOTOR CO
+2019,3364OT,Other transportation equipment,29,1.13373,True,0.01737,0.01789,0.88858,1.17176,RTX CORP
+2019,337,Furniture and related products,15,1.06194,True,0.00392,0.00397,0.93291,1.10202,LEGGETT & PLATT INC
+2019,339,Miscellaneous manufacturing,156,1.11818,True,0.00882,0.00893,0.21666,1.2152,3M CO
+2019,311FT,Food and beverage and tobacco products,68,1.1304,True,0.05171,0.05324,0.76825,1.22873,PEPSICO INC
+2019,313TT,Textile mills and textile product mills,8,1.06763,True,0.00264,0.00286,0.98813,1.13781,MOHAWK INDUSTRIES INC
+2019,315AL,Apparel and leather and allied products,28,1.08345,True,0.00092,0.00097,0.96018,1.14196,V F CORP
+2019,322,Paper products,18,1.04296,True,0.0101,0.01113,0.94935,1.09373,INTERNATIONAL PAPER CO /NEW/
+2019,323,Printing and related support activities,5,1.01635,True,0.00429,0.00456,0.95246,1.11407,"QUAD/GRAPHICS, INC."
+2019,324,Petroleum and coal products,13,1.02431,True,0.03161,0.03252,0.95396,1.07297,EXXON MOBIL CORP
+2019,325,Chemical products,414,1.0631,True,0.04261,0.04548,0.10949,1.18341,"MERCK & CO., INC."
+2019,326,Plastics and rubber products,21,1.04732,True,0.01324,0.01431,0.92322,1.14527,"NIKE, INC."
+2019,42,Wholesale trade,94,1.01783,True,0.11807,0.12205,0.90813,1.08057,MCKESSON CORP
+2019,441,Motor vehicle and parts dealers,18,1.04041,True,0.01963,0.01943,0.98719,1.0979,"PENSKE AUTOMOTIVE GROUP, INC."
+2019,445,Food and beverage stores,10,1.01971,True,0.01393,0.0137,1.00029,1.03557,KROGER CO
+2019,452,General merchandise stores,15,1.03133,True,0.01293,0.01273,0.99653,1.10296,WALMART INC.
+2019,4A0,Other retail,89,1.04539,True,0.05863,0.05814,0.88221,1.12994,AMAZON COM INC
+2019,481,Air transportation,16,1.05544,True,0.0144,0.01479,0.88379,1.10677,FEDEX CORP
+2019,482,Rail transportation,4,1.26539,True,0.00449,0.0048,1.23704,1.30747,"BURLINGTON NORTHERN SANTA FE, LLC"
+2019,483,Water transportation,17,1.0461,True,0.00322,0.00322,0.74181,1.08105,CARNIVAL CORP
+2019,484,Truck transportation,17,1.07785,True,0.02165,0.02268,0.98446,1.10246,UNITED PARCEL SERVICE INC
+2019,485,Transit and ground passenger transportation,0,1.06361,False,0.00579,0.00603,,,
+2019,486,Pipeline transportation,0,1.06361,False,0.00326,0.0033,,,
+2019,487OS,Other transportation and support activities,19,1.07991,True,0.01399,0.01537,0.84602,1.13134,"XPO, INC."
+2019,493,Warehousing and storage,0,1.06361,False,0.00714,0.00772,,,
+2019,511,"Publishing industries, except internet (includes software)",135,1.16511,True,0.02213,0.02229,0.72426,1.23636,MICROSOFT CORP
+2019,512,Motion picture and sound recording industries,11,1.02691,True,0.00882,0.00928,0.28817,1.0802,"AMC ENTERTAINMENT HOLDINGS, INC."
+2019,513,Broadcasting and telecommunications,59,1.11494,True,0.04728,0.04836,0.71759,1.25981,COMCAST CORP
+2019,514,"Data processing, internet publishing, and other information services",76,1.14629,True,0.02548,0.02655,0.65148,1.25379,ALPHABET INC.
+2019,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.06361,False,0.05922,0.06209,,,
+2019,523,"Securities, commodity contracts, and investments",0,1.06361,False,0.03215,0.03294,,,
+2019,524,Insurance carriers and related activities,0,1.06361,False,0.0599,0.0637,,,
+2019,525,"Funds, trusts, and other financial vehicles",0,1.06361,False,0.00779,0.00772,,,
+2019,HS,Housing,0,1.06361,False,0.11734,0.11526,,,
+2019,ORE,Other real estate,0,1.06361,False,0.07593,0.08185,,,
+2019,532RL,Rental and leasing services and lessors of intangible assets,7,1.06864,True,0.02132,0.02281,0.6636,1.09164,NETFLIX INC
+2019,5411,Legal services,0,1.06361,False,0.01962,0.02066,,,
+2019,5415,Computer systems design and related services,43,1.08915,True,0.02812,0.02882,0.61759,1.2241,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+2019,5412OP,"Miscellaneous professional, scientific, and technical services",64,1.08043,True,0.08319,0.08945,0.76352,1.16348,AECOM
+2019,55,Management of companies and enterprises,0,1.06361,False,0.03341,0.036,,,
+2019,561,Administrative and support services,122,1.06912,True,0.05739,0.06274,0.84187,1.27408,ACCENTURE PLC
+2019,562,Waste management and remediation services,15,1.09718,True,0.00678,0.00738,0.95915,1.13156,WASTE MANAGEMENT INC
+2019,61,Educational services,17,1.0801,True,0.02026,0.01997,0.90165,1.30747,"LAUREATE EDUCATION, INC."
+2019,621,Ambulatory health care services,36,1.07053,True,0.06147,0.06046,0.345,1.15279,LABORATORY CORP OF AMERICA HOLDINGS
+2019,622,Hospitals,7,1.03476,True,0.04924,0.04837,0.91122,1.13763,UNIVERSAL HEALTH SERVICES INC
+2019,623,Nursing and residential care facilities,6,0.97865,True,0.01382,0.01357,0.8955,1.04737,BROOKDALE SENIOR LIVING INC.
+2019,624,Social assistance,2,1.06361,False,0.01311,0.01287,0.31274,1.03643,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2019,711AS,"Performing arts, spectator sports, museums, and related activities",2,1.06361,False,0.01187,0.01241,1.03244,1.12918,CHURCHILL DOWNS INC
+2019,713,"Amusements, gambling, and recreation industries",17,1.16334,True,0.00911,0.00899,0.65548,1.19527,WALT DISNEY CO
+2019,721,Accommodation,25,1.12002,True,0.01621,0.01647,0.87444,1.2146,MARRIOTT INTERNATIONAL INC /MD/
+2019,722,Food services and drinking places,38,1.05556,True,0.04807,0.04859,0.93516,1.14366,"YUM CHINA HOLDINGS, INC."
+2019,81,"Other services, except government",10,1.0761,True,0.04108,0.04173,0.8034,1.15949,SERVICE CORP INTERNATIONAL
+2020,111CA,Farms,18,1.01409,True,0.02089,0.02318,0.38042,1.08084,"CORTEVA, INC."
+2020,113FF,"Forestry, fishing, and related activities",3,1.04196,False,0.00289,0.00388,0.1848,1.06102,PINGTAN MARINE ENTERPRISE LTD.
+2020,211,Oil and gas extraction,47,0.51331,True,0.01129,0.00982,0.28646,0.9495,OCCIDENTAL PETROLEUM CORP /DE/
+2020,212,"Mining, except oil and gas",33,1.05312,True,0.00517,0.00551,0.37179,1.19672,FREEPORT-MCMORAN INC
+2020,213,Support activities for mining,37,0.6809,True,0.00424,0.00377,0.45411,0.9261,SCHLUMBERGER LIMITED/NV
+2020,22,Utilities,74,1.04618,True,0.02653,0.02751,0.86055,1.27313,EXELON CORP
+2020,23,Construction,39,1.07582,True,0.09709,0.09614,0.98748,1.14743,LENNAR CORP /NEW/
+2020,321,Wood products,12,1.10617,True,0.00662,0.00753,1.056,1.29942,"FORTUNE BRANDS INNOVATIONS, INC."
+2020,327,Nonmetallic mineral products,7,1.0265,True,0.00717,0.00768,0.99047,1.13157,OWENS CORNING
+2020,331,Primary metals,34,1.00433,True,0.01069,0.01483,0.86685,1.09819,NUCOR CORP
+2020,332,Fabricated metal products,51,1.09555,True,0.01861,0.01992,0.91983,1.21206,"STANLEY BLACK & DECKER, INC."
+2020,333,Machinery,103,0.92366,True,0.01889,0.01885,0.60569,1.15901,DEERE & CO
+2020,334,Computer and electronic products,284,1.16543,True,0.01969,0.02072,0.5963,1.244,APPLE INC
+2020,335,"Electrical equipment, appliances, and components",39,1.06777,True,0.00682,0.00723,0.40754,1.14987,GENERAL ELECTRIC CO
+2020,3361MV,"Motor vehicles, bodies and trailers, and parts",48,1.01419,True,0.03107,0.03131,0.19875,1.12894,FORD MOTOR CO
+2020,3364OT,Other transportation equipment,33,1.07199,True,0.01505,0.01507,0.31955,1.14553,LOCKHEED MARTIN CORP
+2020,337,Furniture and related products,17,1.06126,True,0.00375,0.00381,0.88745,1.10556,LEGGETT & PLATT INC
+2020,339,Miscellaneous manufacturing,168,1.11159,True,0.00855,0.00871,0.28832,1.2159,3M CO
+2020,311FT,Food and beverage and tobacco products,72,1.13399,True,0.0537,0.05485,0.69797,1.25742,PEPSICO INC
+2020,313TT,Textile mills and textile product mills,6,1.04698,True,0.00247,0.00286,0.94752,1.15099,MOHAWK INDUSTRIES INC
+2020,315AL,Apparel and leather and allied products,27,0.99994,True,0.00091,0.00091,0.85983,1.15304,V F CORP
+2020,322,Paper products,22,1.04828,True,0.00967,0.01047,0.90214,1.12078,INTERNATIONAL PAPER CO /NEW/
+2020,323,Printing and related support activities,3,1.01097,True,0.00399,0.00419,0.9913,1.09612,"QUAD/GRAPHICS, INC."
+2020,324,Petroleum and coal products,13,0.85742,True,0.01901,0.01911,0.80687,0.97376,EXXON MOBIL CORP
+2020,325,Chemical products,472,1.06202,True,0.041,0.04332,0.09964,1.2177,"MERCK & CO., INC."
+2020,326,Plastics and rubber products,22,1.08157,True,0.01262,0.01354,0.90827,1.19366,"NIKE, INC."
+2020,42,Wholesale trade,85,1.00736,True,0.11405,0.11683,0.88418,1.08776,CARDINAL HEALTH INC
+2020,441,Motor vehicle and parts dealers,23,1.0516,True,0.0192,0.01897,0.89847,1.15394,"PENSKE AUTOMOTIVE GROUP, INC."
+2020,445,Food and beverage stores,12,1.02829,True,0.01554,0.01527,0.99155,1.05844,KROGER CO
+2020,452,General merchandise stores,15,1.0322,True,0.01371,0.01349,0.8745,1.13709,WALMART INC.
+2020,4A0,Other retail,87,1.0523,True,0.06269,0.06218,0.79271,1.1179,AMAZON COM INC
+2020,481,Air transportation,19,0.84332,True,0.0068,0.00691,0.58304,1.09262,FEDEX CORP
+2020,482,Rail transportation,4,1.28455,True,0.00397,0.0042,1.23893,1.30234,"BURLINGTON NORTHERN SANTA FE, LLC"
+2020,483,Water transportation,16,0.4245,True,0.0021,0.0021,0.2611,1.12987,CARNIVAL CORP
+2020,484,Truck transportation,17,1.07897,True,0.02219,0.02297,0.9997,1.11214,UNITED PARCEL SERVICE INC
+2020,485,Transit and ground passenger transportation,0,1.04196,False,0.00393,0.00405,,,
+2020,486,Pipeline transportation,0,1.04196,False,0.00318,0.0029,,,
+2020,487OS,Other transportation and support activities,19,0.98603,True,0.01543,0.01621,0.60559,1.0983,"XPO, INC."
+2020,493,Warehousing and storage,0,1.04196,False,0.00738,0.00788,,,
+2020,511,"Publishing industries, except internet (includes software)",155,1.14934,True,0.02387,0.02393,0.74161,1.23506,MICROSOFT CORP
+2020,512,Motion picture and sound recording industries,11,0.78318,True,0.00789,0.00792,0.12186,1.26141,STARZ ENTERTAINMENT CORP /CN/
+2020,513,Broadcasting and telecommunications,54,1.13404,True,0.04795,0.04885,0.85784,1.30234,COMCAST CORP
+2020,514,"Data processing, internet publishing, and other information services",89,1.19782,True,0.02883,0.02961,0.6331,1.26604,ALPHABET INC.
+2020,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.04196,False,0.06155,0.06345,,,
+2020,523,"Securities, commodity contracts, and investments",0,1.04196,False,0.0339,0.03412,,,
+2020,524,Insurance carriers and related activities,0,1.04196,False,0.06389,0.06655,,,
+2020,525,"Funds, trusts, and other financial vehicles",0,1.04196,False,0.00835,0.00825,,,
+2020,HS,Housing,0,1.04196,False,0.12571,0.12343,,,
+2020,ORE,Other real estate,0,1.04196,False,0.07573,0.0803,,,
+2020,532RL,Rental and leasing services and lessors of intangible assets,8,1.06822,True,0.02166,0.02257,0.60037,1.17691,NETFLIX INC
+2020,5411,Legal services,1,1.04196,False,0.0201,0.02087,1.06763,1.06763,"CRA INTERNATIONAL, INC."
+2020,5415,Computer systems design and related services,47,1.04344,True,0.02956,0.02995,0.48032,1.21169,"KYNDRYL HOLDINGS, INC."
+2020,5412OP,"Miscellaneous professional, scientific, and technical services",69,1.0686,True,0.08564,0.09051,0.67216,1.13909,AECOM
+2020,55,Management of companies and enterprises,0,1.04196,False,0.03428,0.03565,,,
+2020,561,Administrative and support services,136,1.06416,True,0.05485,0.05885,0.70594,1.26338,ACCENTURE PLC
+2020,562,Waste management and remediation services,15,1.08877,True,0.00688,0.00731,0.76581,1.1086,WASTE MANAGEMENT INC
+2020,61,Educational services,18,1.03061,True,0.01913,0.01883,0.79133,1.27264,GRAHAM HOLDINGS CO
+2020,621,Ambulatory health care services,55,1.07252,True,0.05934,0.05841,0.46454,1.21512,LABORATORY CORP OF AMERICA HOLDINGS
+2020,622,Hospitals,9,1.11531,True,0.04937,0.04849,1.0457,1.13721,"HCA HEALTHCARE, INC."
+2020,623,Nursing and residential care facilities,7,1.00501,True,0.01379,0.01354,0.96155,1.09223,BROOKDALE SENIOR LIVING INC.
+2020,624,Social assistance,2,1.04196,False,0.01363,0.01338,0.19152,0.92656,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2020,711AS,"Performing arts, spectator sports, museums, and related activities",2,1.04196,False,0.00833,0.00847,0.98602,1.05229,CHURCHILL DOWNS INC
+2020,713,"Amusements, gambling, and recreation industries",20,0.93652,True,0.0073,0.00728,0.1512,1.14864,WALT DISNEY CO
+2020,721,Accommodation,21,0.80252,True,0.00979,0.00988,0.51102,1.00205,MARRIOTT INTERNATIONAL INC /MD/
+2020,722,Food services and drinking places,41,1.02145,True,0.04158,0.04158,0.71083,1.12045,"YUM CHINA HOLDINGS, INC."
+2020,81,"Other services, except government",14,1.12074,True,0.03898,0.03925,0.2088,1.26393,SERVICE CORP INTERNATIONAL
+2021,111CA,Farms,22,1.05182,True,0.02266,0.02598,0.06284,1.07303,"CORTEVA, INC."
+2021,113FF,"Forestry, fishing, and related activities",1,1.10561,False,0.00294,0.00457,0.05612,0.05612,AQUABOUNTY TECHNOLOGIES INC
+2021,211,Oil and gas extraction,60,1.14788,True,0.02022,0.02336,0.75597,1.3852,OCCIDENTAL PETROLEUM CORP /DE/
+2021,212,"Mining, except oil and gas",33,1.20028,True,0.00555,0.00691,0.08856,1.36676,FREEPORT-MCMORAN INC
+2021,213,Support activities for mining,32,1.01548,True,0.00336,0.00359,0.64415,1.36571,SCHLUMBERGER LIMITED/NV
+2021,22,Utilities,74,1.06547,True,0.02847,0.0321,0.93772,1.33693,EXELON CORP
+2021,23,Construction,38,1.11668,True,0.09536,0.09561,1.01719,1.17908,HORTON D R INC /DE/
+2021,321,Wood products,12,1.12139,True,0.00781,0.0099,1.01961,1.37443,UFP INDUSTRIES INC
+2021,327,Nonmetallic mineral products,8,1.08901,True,0.00696,0.00818,0.75922,1.21422,OWENS CORNING
+2021,331,Primary metals,34,1.16966,True,0.01339,0.02483,0.90271,1.26498,NUCOR CORP
+2021,332,Fabricated metal products,50,1.12919,True,0.01875,0.02262,0.91361,1.26874,"STANLEY BLACK & DECKER, INC."
+2021,333,Machinery,106,1.12696,True,0.0187,0.02041,0.65013,1.18066,DEERE & CO
+2021,334,Computer and electronic products,303,1.23595,True,0.01819,0.02051,0.3661,1.31133,APPLE INC
+2021,335,"Electrical equipment, appliances, and components",45,1.02862,True,0.00681,0.00796,0.13493,1.21354,GENERAL ELECTRIC CO
+2021,3361MV,"Motor vehicles, bodies and trailers, and parts",58,1.05584,True,0.03182,0.03343,0.05612,1.12289,FORD MOTOR CO
+2021,3364OT,Other transportation equipment,37,1.11576,True,0.01335,0.01359,0.26037,1.21028,LOCKHEED MARTIN CORP
+2021,337,Furniture and related products,16,1.07983,True,0.0036,0.00375,0.97795,1.12013,LEGGETT & PLATT INC
+2021,339,Miscellaneous manufacturing,197,1.14375,True,0.00834,0.00864,0.17739,1.23683,3M CO
+2021,311FT,Food and beverage and tobacco products,78,1.14025,True,0.05205,0.0542,0.6119,1.23576,PEPSICO INC
+2021,313TT,Textile mills and textile product mills,6,1.11752,True,0.00243,0.00279,0.99847,1.17329,MOHAWK INDUSTRIES INC
+2021,315AL,Apparel and leather and allied products,26,1.15003,True,0.00087,0.00088,1.02494,1.19152,V F CORP
+2021,322,Paper products,22,1.07701,True,0.00941,0.01106,0.96721,1.1678,KIMBERLY CLARK CORP
+2021,323,Printing and related support activities,4,1.04819,True,0.00374,0.00415,1.03022,1.10462,"QUAD/GRAPHICS, INC."
+2021,324,Petroleum and coal products,13,1.0679,True,0.02917,0.03107,0.97403,1.18452,EXXON MOBIL CORP
+2021,325,Chemical products,515,1.16946,True,0.04278,0.05064,0.05612,1.24997,PFIZER INC
+2021,326,Plastics and rubber products,19,1.12153,True,0.01312,0.01519,0.97088,1.22789,"NIKE, INC."
+2021,42,Wholesale trade,92,1.02834,True,0.1216,0.13102,0.75766,1.11217,"CENCORA, INC."
+2021,441,Motor vehicle and parts dealers,23,1.06316,True,0.02112,0.02099,0.80562,1.13388,"AUTONATION, INC."
+2021,445,Food and beverage stores,12,1.03456,True,0.01476,0.0145,1.01723,1.08344,KROGER CO
+2021,452,General merchandise stores,15,1.04913,True,0.01367,0.01346,1.03322,1.13657,WALMART INC.
+2021,4A0,Other retail,106,1.05121,True,0.06923,0.0691,0.79537,1.15233,AMAZON COM INC
+2021,481,Air transportation,21,1.0299,True,0.00935,0.00971,0.84812,1.16435,FEDEX CORP
+2021,482,Rail transportation,5,1.37895,True,0.004,0.00463,0.81102,1.3852,"BURLINGTON NORTHERN SANTA FE, LLC"
+2021,483,Water transportation,14,0.43674,True,0.00192,0.00198,0.18005,1.3852,"MATSON, INC."
+2021,484,Truck transportation,17,1.12768,True,0.02353,0.02591,1.02746,1.16753,UNITED PARCEL SERVICE INC
+2021,485,Transit and ground passenger transportation,0,1.10561,False,0.00421,0.00454,,,
+2021,486,Pipeline transportation,1,1.10561,False,0.00307,0.00346,1.03192,1.03192,HF SINCLAIR CORP
+2021,487OS,Other transportation and support activities,19,1.07961,True,0.017,0.01982,0.39288,1.15269,"C. H. ROBINSON WORLDWIDE, INC."
+2021,493,Warehousing and storage,0,1.10561,False,0.00762,0.00868,,,
+2021,511,"Publishing industries, except internet (includes software)",188,1.15009,True,0.02389,0.02414,0.60476,1.17962,MICROSOFT CORP
+2021,512,Motion picture and sound recording industries,9,0.93245,True,0.00806,0.0087,0.48253,1.06156,STARZ ENTERTAINMENT CORP /CN/
+2021,513,Broadcasting and telecommunications,57,1.16994,True,0.04487,0.04703,0.5364,1.29524,COMCAST CORP
+2021,514,"Data processing, internet publishing, and other information services",96,1.2877,True,0.03168,0.03381,0.54202,1.28503,ALPHABET INC.
+2021,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.10561,False,0.05762,0.06333,,,
+2021,523,"Securities, commodity contracts, and investments",0,1.10561,False,0.03453,0.03664,,,
+2021,524,Insurance carriers and related activities,0,1.10561,False,0.05909,0.06679,,,
+2021,525,"Funds, trusts, and other financial vehicles",0,1.10561,False,0.00866,0.0086,,,
+2021,HS,Housing,0,1.10561,False,0.11868,0.11635,,,
+2021,ORE,Other real estate,0,1.10561,False,0.0805,0.09127,,,
+2021,532RL,Rental and leasing services and lessors of intangible assets,8,1.20225,True,0.02517,0.02888,0.48098,1.27283,NETFLIX INC
+2021,5411,Legal services,1,1.10561,False,0.01975,0.02163,1.10538,1.10538,"CRA INTERNATIONAL, INC."
+2021,5415,Computer systems design and related services,54,1.03092,True,0.02926,0.0307,0.24144,1.18406,"KYNDRYL HOLDINGS, INC."
+2021,5412OP,"Miscellaneous professional, scientific, and technical services",74,1.10731,True,0.08596,0.09767,0.58484,1.20158,OMNICOM GROUP INC.
+2021,55,Management of companies and enterprises,0,1.10561,False,0.03298,0.03841,,,
+2021,561,Administrative and support services,138,1.11919,True,0.05497,0.06442,0.7003,1.28332,ACCENTURE PLC
+2021,562,Waste management and remediation services,14,1.14167,True,0.00677,0.00789,0.67682,1.17789,WASTE MANAGEMENT INC
+2021,61,Educational services,16,1.05812,True,0.01846,0.01819,0.8632,1.22038,GRAHAM HOLDINGS CO
+2021,621,Ambulatory health care services,68,1.05667,True,0.0597,0.05867,0.1131,1.17446,LABORATORY CORP OF AMERICA HOLDINGS
+2021,622,Hospitals,7,1.13664,True,0.04839,0.04746,1.09003,1.16177,TENET HEALTHCARE CORP
+2021,623,Nursing and residential care facilities,7,0.90061,True,0.01264,0.01239,0.68305,1.06201,BROOKDALE SENIOR LIVING INC.
+2021,624,Social assistance,2,1.10561,False,0.01336,0.0131,0.7099,1.02668,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2021,711AS,"Performing arts, spectator sports, museums, and related activities",1,1.10561,False,0.00992,0.01084,1.38017,1.38017,CANTERBURY PARK HOLDING CORP
+2021,713,"Amusements, gambling, and recreation industries",23,0.9787,True,0.00868,0.00876,0.24091,1.23485,WALT DISNEY CO
+2021,721,Accommodation,23,1.10792,True,0.0119,0.01235,0.8118,1.32591,MARRIOTT INTERNATIONAL INC /MD/
+2021,722,Food services and drinking places,38,1.10286,True,0.04887,0.04997,0.77332,1.14482,"YUM CHINA HOLDINGS, INC."
+2021,81,"Other services, except government",13,1.13181,True,0.03855,0.03994,0.86093,1.2539,SERVICE CORP INTERNATIONAL
+2022,111CA,Farms,21,1.01987,True,0.02489,0.0274,0.15698,1.07086,"CORTEVA, INC."
+2022,113FF,"Forestry, fishing, and related activities",1,1.09123,False,0.00284,0.0044,0.09733,0.09733,AQUABOUNTY TECHNOLOGIES INC
+2022,211,Oil and gas extraction,64,1.33119,True,0.0283,0.03492,1.01885,1.39039,OCCIDENTAL PETROLEUM CORP /DE/
+2022,212,"Mining, except oil and gas",38,1.13019,True,0.00586,0.00705,0.32229,1.38134,CLEVELAND-CLIFFS INC.
+2022,213,Support activities for mining,34,1.08328,True,0.0038,0.00438,0.74855,1.39039,SCHLUMBERGER LIMITED/NV
+2022,22,Utilities,73,0.99523,True,0.03031,0.03352,0.87544,1.28255,SOUTHERN CO
+2022,23,Construction,38,1.12259,True,0.09513,0.09501,0.93602,1.19149,LENNAR CORP /NEW/
+2022,321,Wood products,12,1.11704,True,0.00755,0.00901,1.01567,1.3755,UFP INDUSTRIES INC
+2022,327,Nonmetallic mineral products,8,1.10063,True,0.00685,0.00814,0.75596,1.24187,CRH PUBLIC LTD CO
+2022,331,Primary metals,35,1.13538,True,0.01407,0.02495,0.94413,1.25497,NUCOR CORP
+2022,332,Fabricated metal products,52,1.06475,True,0.01865,0.02207,0.82239,1.1945,"STANLEY BLACK & DECKER, INC."
+2022,333,Machinery,106,1.11976,True,0.01908,0.02085,0.74118,1.18748,DEERE & CO
+2022,334,Computer and electronic products,289,1.19515,True,0.01769,0.01964,0.36729,1.30883,APPLE INC
+2022,335,"Electrical equipment, appliances, and components",52,1.02804,True,0.00679,0.00783,0.12972,1.13956,GENERAL ELECTRIC CO
+2022,3361MV,"Motor vehicles, bodies and trailers, and parts",59,1.04211,True,0.03063,0.03202,0.05581,1.11874,FORD MOTOR CO
+2022,3364OT,Other transportation equipment,37,1.10281,True,0.01515,0.01541,0.29476,1.19076,RTX CORP
+2022,337,Furniture and related products,16,1.05183,True,0.00355,0.00368,0.94607,1.09166,LEGGETT & PLATT INC
+2022,339,Miscellaneous manufacturing,179,1.07896,True,0.00821,0.00819,0.11289,1.18013,3M CO
+2022,311FT,Food and beverage and tobacco products,78,1.10146,True,0.05018,0.05137,0.63848,1.19524,PEPSICO INC
+2022,313TT,Textile mills and textile product mills,5,1.00925,True,0.00227,0.0025,0.94259,1.14536,MOHAWK INDUSTRIES INC
+2022,315AL,Apparel and leather and allied products,27,1.09469,True,0.00086,0.00094,0.88922,1.17609,V F CORP
+2022,322,Paper products,18,1.08073,True,0.00889,0.01023,0.86907,1.13705,WESTROCK CO
+2022,323,Printing and related support activities,2,1.09123,False,0.00376,0.00407,1.02788,1.15523,ACCO BRANDS CORP
+2022,324,Petroleum and coal products,12,1.16573,True,0.04009,0.04215,1.02688,1.34581,EXXON MOBIL CORP
+2022,325,Chemical products,459,1.14966,True,0.04303,0.04909,0.04843,1.21432,PFIZER INC
+2022,326,Plastics and rubber products,18,1.112,True,0.01315,0.01477,1.00236,1.25627,"NIKE, INC."
+2022,42,Wholesale trade,85,1.04508,True,0.12502,0.13291,0.8519,1.1366,SYSCO CORP
+2022,441,Motor vehicle and parts dealers,21,1.05795,True,0.02275,0.02256,0.99865,1.13745,LITHIA MOTORS INC
+2022,445,Food and beverage stores,13,1.03017,True,0.01452,0.01425,1.00076,1.05321,KROGER CO
+2022,452,General merchandise stores,15,1.02801,True,0.01311,0.0129,0.96261,1.09589,WALMART INC.
+2022,4A0,Other retail,94,1.0357,True,0.06648,0.06629,0.71109,1.15119,AMAZON COM INC
+2022,481,Air transportation,20,1.00248,True,0.01283,0.01315,0.73124,1.04753,FEDEX CORP
+2022,482,Rail transportation,5,1.26542,True,0.00413,0.00468,0.765,1.37127,"BURLINGTON NORTHERN SANTA FE, LLC"
+2022,483,Water transportation,14,0.77345,True,0.00286,0.00292,0.66173,1.39039,CARNIVAL CORP
+2022,484,Truck transportation,16,1.1154,True,0.02505,0.02716,1.06847,1.15289,UNITED PARCEL SERVICE INC
+2022,485,Transit and ground passenger transportation,0,1.09123,False,0.00517,0.00545,,,
+2022,486,Pipeline transportation,1,1.09123,False,0.00302,0.00355,1.10493,1.10493,HF SINCLAIR CORP
+2022,487OS,Other transportation and support activities,20,1.09894,True,0.01709,0.01956,0.45372,1.15763,"C. H. ROBINSON WORLDWIDE, INC."
+2022,493,Warehousing and storage,0,1.09123,False,0.00774,0.00857,,,
+2022,511,"Publishing industries, except internet (includes software)",179,1.15763,True,0.02398,0.02422,0.56596,1.24399,MICROSOFT CORP
+2022,512,Motion picture and sound recording industries,8,0.77359,True,0.00847,0.00826,0.58626,1.06083,STARZ ENTERTAINMENT CORP /CN/
+2022,513,Broadcasting and telecommunications,58,1.04771,True,0.04154,0.04251,0.49389,1.25892,COMCAST CORP
+2022,514,"Data processing, internet publishing, and other information services",92,1.20084,True,0.03216,0.03363,0.4238,1.13943,ALPHABET INC.
+2022,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.09123,False,0.0544,0.05857,,,
+2022,523,"Securities, commodity contracts, and investments",0,1.09123,False,0.03131,0.03296,,,
+2022,524,Insurance carriers and related activities,0,1.09123,False,0.05752,0.06369,,,
+2022,525,"Funds, trusts, and other financial vehicles",0,1.09123,False,0.00827,0.00819,,,
+2022,HS,Housing,0,1.09123,False,0.11685,0.11457,,,
+2022,ORE,Other real estate,0,1.09123,False,0.07999,0.08777,,,
+2022,532RL,Rental and leasing services and lessors of intangible assets,7,1.17218,True,0.02561,0.02878,0.43457,1.16917,NETFLIX INC
+2022,5411,Legal services,1,1.09123,False,0.01898,0.02052,1.10435,1.10435,"CRA INTERNATIONAL, INC."
+2022,5415,Computer systems design and related services,54,1.02574,True,0.02932,0.03054,0.19952,1.18409,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+2022,5412OP,"Miscellaneous professional, scientific, and technical services",71,1.09073,True,0.08661,0.09586,0.58197,1.18599,OMNICOM GROUP INC.
+2022,55,Management of companies and enterprises,0,1.09123,False,0.03278,0.03795,,,
+2022,561,Administrative and support services,129,1.06484,True,0.05694,0.06397,0.72564,1.27561,ACCENTURE PLC
+2022,562,Waste management and remediation services,9,1.1245,True,0.00674,0.00766,0.87652,1.13802,WASTE MANAGEMENT INC
+2022,61,Educational services,14,1.04153,True,0.01894,0.01866,0.80654,1.23243,GRAHAM HOLDINGS CO
+2022,621,Ambulatory health care services,59,0.82175,True,0.05838,0.05717,0.08838,1.12139,LABORATORY CORP OF AMERICA HOLDINGS
+2022,622,Hospitals,6,1.08604,True,0.04703,0.04611,1.05285,1.12049,TENET HEALTHCARE CORP
+2022,623,Nursing and residential care facilities,6,0.93266,True,0.0124,0.01216,0.69239,1.05554,"ENSIGN GROUP, INC"
+2022,624,Social assistance,1,1.09123,False,0.01319,0.01294,1.0638,1.0638,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2022,711AS,"Performing arts, spectator sports, museums, and related activities",2,1.09123,False,0.01142,0.01186,1.154,1.20934,CHURCHILL DOWNS INC
+2022,713,"Amusements, gambling, and recreation industries",23,1.02765,True,0.00926,0.00922,0.50069,1.22607,WALT DISNEY CO
+2022,721,Accommodation,22,1.09755,True,0.01453,0.01487,0.92305,1.38528,MARRIOTT INTERNATIONAL INC /MD/
+2022,722,Food services and drinking places,37,1.06662,True,0.0509,0.0514,0.83188,1.11779,ARAMARK
+2022,81,"Other services, except government",14,1.12367,True,0.0402,0.04122,0.61634,1.22503,SERVICE CORP INTERNATIONAL
+2023,111CA,Farms,18,1.0296,True,0.02256,0.02504,0.24376,1.07967,"CORTEVA, INC."
+2023,113FF,"Forestry, fishing, and related activities",1,1.08157,False,0.0027,0.00352,0.06069,0.06069,AQUABOUNTY TECHNOLOGIES INC
+2023,211,Oil and gas extraction,60,1.18464,True,0.01945,0.0223,0.79979,1.32765,OCCIDENTAL PETROLEUM CORP /DE/
+2023,212,"Mining, except oil and gas",39,1.06702,True,0.00556,0.00644,0.33462,1.31536,FREEPORT-MCMORAN INC
+2023,213,Support activities for mining,32,1.11872,True,0.00422,0.0045,0.89516,1.32696,SCHLUMBERGER LIMITED/NV
+2023,22,Utilities,74,1.02151,True,0.02601,0.02818,0.88032,1.28894,BERKSHIRE HATHAWAY ENERGY CO
+2023,23,Construction,42,1.10339,True,0.0949,0.09473,0.9829,1.17893,HORTON D R INC /DE/
+2023,321,Wood products,12,1.05229,True,0.00685,0.00777,1.02781,1.26707,UFP INDUSTRIES INC
+2023,327,Nonmetallic mineral products,7,1.09754,True,0.00657,0.00748,0.98521,1.24733,CRH PUBLIC LTD CO
+2023,331,Primary metals,35,1.08165,True,0.01295,0.02027,0.92638,1.1799,NUCOR CORP
+2023,332,Fabricated metal products,53,1.09225,True,0.01753,0.02013,0.83685,1.19855,PARKER HANNIFIN CORP
+2023,333,Machinery,98,1.14167,True,0.01836,0.01968,0.83572,1.21112,DEERE & CO
+2023,334,Computer and electronic products,267,1.16529,True,0.01682,0.01853,0.40023,1.28832,APPLE INC
+2023,335,"Electrical equipment, appliances, and components",55,1.06639,True,0.00683,0.0077,0.16513,1.15362,GENERAL ELECTRIC CO
+2023,3361MV,"Motor vehicles, bodies and trailers, and parts",52,1.03855,True,0.03157,0.03266,0.0606,1.13964,FORD MOTOR CO
+2023,3364OT,Other transportation equipment,36,1.09801,True,0.01685,0.01713,0.33504,1.17366,RTX CORP
+2023,337,Furniture and related products,14,1.03012,True,0.00329,0.00338,0.97436,1.12173,LEGGETT & PLATT INC
+2023,339,Miscellaneous manufacturing,165,1.04525,True,0.00787,0.00797,0.22309,1.17244,3M CO
+2023,311FT,Food and beverage and tobacco products,74,1.11602,True,0.04793,0.04927,0.75647,1.23961,PEPSICO INC
+2023,313TT,Textile mills and textile product mills,5,0.97373,True,0.00203,0.00216,0.97376,1.11029,MOHAWK INDUSTRIES INC
+2023,315AL,Apparel and leather and allied products,28,1.09941,True,0.00097,0.00097,0.9623,1.17258,V F CORP
+2023,322,Paper products,20,1.03124,True,0.00826,0.00929,0.81594,1.10234,KIMBERLY CLARK CORP
+2023,323,Printing and related support activities,2,1.08157,False,0.00353,0.00384,1.03146,1.13185,ACCO BRANDS CORP
+2023,324,Petroleum and coal products,12,1.11345,True,0.03078,0.03193,1.04691,1.20847,EXXON MOBIL CORP
+2023,325,Chemical products,399,1.06862,True,0.04182,0.04604,0.0606,1.17011,"MERCK & CO., INC."
+2023,326,Plastics and rubber products,20,1.10066,True,0.01213,0.01345,0.94398,1.28831,"NIKE, INC."
+2023,42,Wholesale trade,84,1.03353,True,0.1154,0.12151,0.95484,1.12752,"CENCORA, INC."
+2023,441,Motor vehicle and parts dealers,19,1.03915,True,0.02197,0.02182,0.96017,1.06125,LITHIA MOTORS INC
+2023,445,Food and beverage stores,14,1.02347,True,0.01398,0.01376,0.91148,1.0428,KROGER CO
+2023,452,General merchandise stores,13,1.02958,True,0.01263,0.01246,0.96859,1.10853,WALMART INC.
+2023,4A0,Other retail,86,1.04824,True,0.06406,0.06381,0.82625,1.13657,AMAZON COM INC
+2023,481,Air transportation,22,1.01459,True,0.01265,0.01289,0.77008,1.0576,FEDEX CORP
+2023,482,Rail transportation,4,1.17409,True,0.00373,0.00412,0.70662,1.24863,UNION PACIFIC CORP
+2023,483,Water transportation,14,1.01879,True,0.0029,0.00294,0.98521,1.31128,CARNIVAL CORP
+2023,484,Truck transportation,15,1.07472,True,0.02152,0.02298,1.0017,1.11532,UNITED PARCEL SERVICE INC
+2023,485,Transit and ground passenger transportation,0,1.08157,False,0.00592,0.00627,,,
+2023,486,Pipeline transportation,1,1.08157,False,0.00289,0.00319,1.0592,1.0592,HF SINCLAIR CORP
+2023,487OS,Other transportation and support activities,19,1.04144,True,0.01418,0.01588,0.58636,1.08578,"C. H. ROBINSON WORLDWIDE, INC."
+2023,493,Warehousing and storage,1,1.08157,False,0.00732,0.00807,1.14844,1.14844,ARMLOGI HOLDING CORP.
+2023,511,"Publishing industries, except internet (includes software)",171,1.15418,True,0.02404,0.02433,0.64161,1.24369,MICROSOFT CORP
+2023,512,Motion picture and sound recording industries,5,1.08157,False,0.00821,0.00864,0.45131,0.96404,MARCUS CORP
+2023,513,Broadcasting and telecommunications,58,1.05702,True,0.03807,0.03906,0.60366,1.18523,COMCAST CORP
+2023,514,"Data processing, internet publishing, and other information services",77,1.25135,True,0.03194,0.03355,0.57886,1.19446,ALPHABET INC.
+2023,521CI,"Federal Reserve banks, credit intermediation, and related activities",0,1.08157,False,0.05573,0.0598,,,
+2023,523,"Securities, commodity contracts, and investments",0,1.08157,False,0.03365,0.03547,,,
+2023,524,Insurance carriers and related activities,0,1.08157,False,0.05599,0.06158,,,
+2023,525,"Funds, trusts, and other financial vehicles",0,1.08157,False,0.00837,0.00825,,,
+2023,HS,Housing,0,1.08157,False,0.11892,0.1169,,,
+2023,ORE,Other real estate,0,1.08157,False,0.08004,0.08806,,,
+2023,532RL,Rental and leasing services and lessors of intangible assets,7,1.14903,True,0.02661,0.02966,0.62209,1.14807,NETFLIX INC
+2023,5411,Legal services,1,1.08157,False,0.01819,0.01964,1.09695,1.09695,"CRA INTERNATIONAL, INC."
+2023,5415,Computer systems design and related services,47,1.05241,True,0.02869,0.02971,0.30792,1.19051,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+2023,5412OP,"Miscellaneous professional, scientific, and technical services",63,1.09961,True,0.08717,0.0962,0.5566,1.21149,OMNICOM GROUP INC.
+2023,55,Management of companies and enterprises,0,1.08157,False,0.03186,0.03595,,,
+2023,561,Administrative and support services,126,1.1178,True,0.05387,0.06058,0.72846,1.30109,ACCENTURE PLC
+2023,562,Waste management and remediation services,10,1.124,True,0.00678,0.00762,0.94744,1.14208,WASTE MANAGEMENT INC
+2023,61,Educational services,16,1.05665,True,0.01923,0.01899,0.86312,1.26144,GRAHAM HOLDINGS CO
+2023,621,Ambulatory health care services,55,1.00074,True,0.05991,0.05895,0.38249,1.11574,LABORATORY CORP OF AMERICA HOLDINGS
+2023,622,Hospitals,7,1.08275,True,0.04716,0.04636,1.01189,1.12002,TENET HEALTHCARE CORP
+2023,623,Nursing and residential care facilities,5,0.94098,True,0.01288,0.01266,0.68854,1.04476,"ENSIGN GROUP, INC"
+2023,624,Social assistance,2,1.08157,False,0.0136,0.01337,1.06424,1.10565,"KINDERCARE LEARNING COMPANIES, INC."
+2023,711AS,"Performing arts, spectator sports, museums, and related activities",2,1.08157,False,0.01141,0.01203,1.18023,1.28421,CHURCHILL DOWNS INC
+2023,713,"Amusements, gambling, and recreation industries",25,1.02773,True,0.00962,0.00961,0.402,1.24522,WALT DISNEY CO
+2023,721,Accommodation,21,1.10507,True,0.01521,0.01562,0.9952,1.32765,MGM RESORTS INTERNATIONAL
+2023,722,Food services and drinking places,36,1.08191,True,0.05266,0.05352,0.89876,1.14896,ARAMARK
+2023,81,"Other services, except government",13,1.06677,True,0.0413,0.04233,0.54833,1.22988,SERVICE CORP INTERNATIONAL

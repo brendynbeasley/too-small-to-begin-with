@@ -1,0 +1,16 @@
+# Raw SEC Financial Statement Data Sets (55 quarterly zips, about 5 GB).
+# The slim firm-year panel data/sec_firm_years.csv is committed instead.
+data/raw/sec/
+
+# Secrets
+*.key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

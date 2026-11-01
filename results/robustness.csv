@@ -1,0 +1,6 @@
+variant,cum_tfp_adjusted,cum_tfp_fernald,cum_ae_firm,cum_ae_industry,cum_technology,share_ae_of_tfp,share_ae_industry_of_tfp,firm_years,within_realloc,cum_between
+Paper's rules (benchmark),0.07598,0.08369,0.05299,0.06472,0.02298,0.6975,0.8518,35002,-0.04216,-0.01309
+Winsorize at 1-99 instead of 5-95,0.07655,0.08369,0.09713,0.07098,-0.02057,1.26875,0.92723,35002,-0.11707,-0.0173
+Keep negative-equity firms,0.07654,0.08369,0.05918,0.06593,0.01736,0.77317,0.86129,41846,-0.04452,-0.01871
+Drop loss-making firm-years,0.08007,0.08369,0.0137,0.01085,0.06637,0.17109,0.13547,22190,-0.0015,0.00427
+"Oil, gas and refining take the aggregate markup",0.07623,0.08369,0.028,0.01983,0.04823,0.36729,0.26014,33448,-0.03638,-0.00773
